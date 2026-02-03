@@ -10,11 +10,32 @@ Recull de comandes i scripts per a l'administració segura de sistemes Linux.
 - **Historial d'últims accessos exitosos:**
   `last -n 20`
 
-## 🔍 Auditoria de Xarxa Local
-- **Llistar ports escoltant (amb procés):**
-  `ss -tunlp` o `netstat -tunlp`
-- **Veure connexions actives a un port específic (ex. 80):**
-  `lsof -i :80`
+## 🔍 Auditoria de Xarxa i Ús de `lsof`
+L'eina `lsof` és indispensable per saber què està passant al sistema a nivell de fitxers i sockets.
+
+### Xarxa i Ports
+- **Qui està usant un port específic? (ex. 8080):**
+  `lsof -i :8080`
+- **Llistar totes les connexions de xarxa actives:**
+  `lsof -i`
+- **Veure ports escoltant (LISTEN):**
+  `lsof -i -sTCP:LISTEN`
+- **Connexions d'un usuari concret (ex. www-data):**
+  `lsof -i -u www-data`
+
+### Fitxers i Processos
+- **Quin procés té obert un fitxer o directori?**
+  `lsof /camí/al/fitxer`
+- **Llistar tots els fitxers oberts per un PID:**
+  `lsof -p <PID>`
+- **Fitxers oberts per un usuari:**
+  `lsof -u <usuari>`
+- **Veure binaris eliminats que segueixen en memòria (Sospitós):**
+  `lsof +L1` o `lsof | grep deleted`
+
+### Diagnòstic de Bloquejos
+- **Llistar fitxers oberts en un directori sencer (útil per umount):**
+  `lsof +D /var/log`
 
 ## 🧱 Firewall & Hardening (UFW)
 - **Bloquejar una IP atacant a l'acte:**
