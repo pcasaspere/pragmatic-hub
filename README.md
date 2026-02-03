@@ -8,6 +8,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - [⚡ Power Workflows (Automation)](payloads-and-commands/workflows.md)
 - [🎯 Web Exploitation Payloads](payloads-and-commands/web-exploitation.md)
 - [🔐 Active Directory Exploitation](payloads-and-commands/active-directory.md)
+- [⚙️ Linux Security & Hardening](payloads-and-commands/linux-and-hardening.md)
 
 ### 🛠️ Eines i Recursos per Categoria
 - [🛡️ Offensive Security (Pentesting & Bug Bounty)](#️-offensive-security-pentesting--bug-bounty)
