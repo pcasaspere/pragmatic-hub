@@ -37,13 +37,23 @@ L'eina `lsof` és indispensable per saber què està passant al sistema a nivell
 - **Llistar fitxers oberts en un directori sencer (útil per umount):**
   `lsof +D /var/log`
 
-## 🧱 Firewall & Hardening (UFW)
-- **Bloquejar una IP atacant a l'acte:**
-  `sudo ufw deny from 1.2.3.4`
-- **Permetre només el rang de la VPN (ex. Guifi):**
-  `sudo ufw allow from 10.0.0.0/8 to any port 22`
-- **Estat del firewall amb numeració (per a deletions):**
-  `sudo ufw status numbered`
+## 🧱 Firewall & Hardening
+
+### UFW (Debian/Ubuntu)
+- **Bloquejar una IP atacant:** `sudo ufw deny from 1.2.3.4`
+- **Permetre rang VPN:** `sudo ufw allow from 10.0.0.0/8 to any port 22`
+- **Estat numerat:** `sudo ufw status numbered`
+
+### firewalld (RHEL/CentOS/Fedora)
+- **Estat del firewall:** `firewall-cmd --state`
+- **Llistar configuració de la zona activa:** `firewall-cmd --list-all`
+- **Obrir un servei permanentment (ex. HTTPS):**
+  `sudo firewall-cmd --permanent --add-service=https && sudo firewall-cmd --reload`
+- **Obrir un port TCP específic:**
+  `sudo firewall-cmd --permanent --add-port=8291/tcp && sudo firewall-cmd --reload`
+- **Bloquejar una IP (Rich Rule):**
+  `sudo firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="1.2.3.4" reject' && sudo firewall-cmd --reload`
+- **Veure zones disponibles:** `firewall-cmd --get-zones`
 
 ## 📝 Anàlisi de Logs i Salut del Sistema
 - **Buscar errors de hardware/kernel:**
