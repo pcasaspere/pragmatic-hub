@@ -58,8 +58,8 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[SecurityTrails](https://securitytrails.com/)**: Plataforma per a l'anàlisi de dades de dominis i IPs (ideal per consultar històrics d'IPs).
 - **[crt.sh](https://crt.sh/)**: Cercador de certificats SSL/TLS per enumerar subdominis a través de Certificate Transparency.
 - **[Hunter.io](https://hunter.io/)**: Eina per trobar i verificar adreces de correu electrònic associades a un domini.
-- **[Criminal IP](https://www.criminalip.io/)**
-- **[urlscan.io](https://urlscan.io/)**
+- **[Criminal IP](https://www.criminalip.io/)**: Cercador de CTI que permet trobar dispositius exposats i vulnerabilitats.
+- **[urlscan.io](https://urlscan.io/)**: Escàner de seguretat per a llocs web que analitza el comportament de navegació i recursos carregats.
 
 ## 📚 Knowledge Bases & Learning
 - **[HackTricks](https://book.hacktricks.wiki/)**
