@@ -32,11 +32,13 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 
 ## 🏗️ Industrial Control Systems (ICS/OT)
 - **[Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols)**
+- **[Awesome ICS Security](https://github.com/hslatman/awesome-industrial-control-system-security)**: Llista curada de recursos relacionats amb la seguretat de sistemes de control industrial.
 - **[Grassmarlin](https://github.com/nsacyber/grassmarlin)**
 - **[S7Scan](https://github.com/moki-ics/s7scan)**
 
 ## ⚙️ Infrastructure, Linux & Hardening
 - **[RHEL 9 Security Hardening](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/index)**
+- **[Exploit Notes](https://exploit-notes.hdks.org/)**: Notes detallades sobre explotació, CTFs i seguretat ofensiva.
 - **[Lynis](https://cisofy.com/lynis/)**
 - **[SSH Monitor](scripts/python/ssh_monitor.py)**
 - **[pspy](https://github.com/DominicBreuker/pspy)**
@@ -62,7 +64,10 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[urlscan.io](https://urlscan.io/)**: Escàner de seguretat per a llocs web que analitza el comportament de navegació i recursos carregats.
 
 ## 📚 Knowledge Bases & Learning
-- **[HackTricks](https://book.hacktricks.wiki/)**
+- **[HackTricks](https://book.hacktricks.wiki/)**: La biblia de la seguretat ofensiva i el pentesting.
+- **[Pentest Everything](https://viperone.gitbook.io/pentest-everything)**: Guia completa de pentesting i Bug Bounty.
+- **[Pentesting Notes (Incendium)](https://notes.incendium.rocks/pentesting-notes/)**: Recull de notes de camp per a pentesting.
+- **[ADMinions](https://adminions.ca/)**: Recursos i eines centrades en l'explotació d'Active Directory.
 - **[The Hacker Recipes](https://www.thehacker.recipes/)**
 
 ## 🤖 AI for Cybersecurity
