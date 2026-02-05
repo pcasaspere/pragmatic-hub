@@ -50,6 +50,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 
 ## 🔍 Code Analysis & SAST
 - **[Semgrep](https://github.com/semgrep/semgrep)**: Motor d'anàlisi estàtica de codi ràpid i multillenguatge.
+- **[Bandit](https://bandit.readthedocs.io/en/latest/)**: Eina dissenyada per trobar problemes de seguretat comuns en el codi Python.
 - **[Trivy](https://github.com/aquasecurity/trivy)**: Escàner de vulnerabilitats per a contenidors i artefactes.
 
 ## 🕵️ Forensics & Network Analysis
