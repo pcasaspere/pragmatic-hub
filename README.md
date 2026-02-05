@@ -31,30 +31,30 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[Sliver](https://github.com/BishopFox/sliver)**: Framework de C2 Open Source.
 
 ## 🏗️ Industrial Control Systems (ICS/OT)
-- **[Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols)**
+- **[Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols)**: Recull de protocols industrials i eines d'anàlisi.
 - **[Awesome ICS Security](https://github.com/hslatman/awesome-industrial-control-system-security)**: Llista curada de recursos relacionats amb la seguretat de sistemes de control industrial.
-- **[Grassmarlin](https://github.com/nsacyber/grassmarlin)**
-- **[S7Scan](https://github.com/moki-ics/s7scan)**
+- **[Grassmarlin](https://github.com/nsacyber/grassmarlin)**: Eina de la NSA per a la descoberta de xarxes industrials i inventari de dispositius.
+- **[S7Scan](https://github.com/moki-ics/s7scan)**: Escàner per a dispositius Siemens S7.
 
 ## ⚙️ Infrastructure, Linux & Hardening
-- **[RHEL 9 Security Hardening](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/index)**
+- **[RHEL 9 Security Hardening](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/index)**: Guia oficial de Red Hat per assegurar sistemes RHEL 9.
 - **[Exploit Notes](https://exploit-notes.hdks.org/)**: Notes detallades sobre explotació, CTFs i seguretat ofensiva.
-- **[Lynis](https://cisofy.com/lynis/)**
-- **[SSH Monitor](scripts/python/ssh_monitor.py)**
-- **[pspy](https://github.com/DominicBreuker/pspy)**
+- **[Lynis](https://cisofy.com/lynis/)**: Eina d'auditoria de seguretat per a sistemes Unix/Linux.
+- **[SSH Monitor](scripts/python/ssh_monitor.py)**: Script personalitzat per monitoritzar accessos SSH.
+- **[pspy](https://github.com/DominicBreuker/pspy)**: Monitorització de processos en Linux sense permisos de root.
 
 ## ☁️ Cloud Security
-- **[Prowler](https://github.com/prowler-cloud/prowler)**
-- **[CloudFox](https://github.com/BishopFox/cloudfox)**
-- **[Pacu](https://github.com/RhinoSecurityLabs/pacu)**
+- **[Prowler](https://github.com/prowler-cloud/prowler)**: Eina d'auditoria i hardening per a AWS, Azure i GCP.
+- **[CloudFox](https://github.com/BishopFox/cloudfox)**: Eina per ajudar a trobar vectors d'atac en infraestructures cloud.
+- **[Pacu](https://github.com/RhinoSecurityLabs/pacu)**: Framework d'explotació per a AWS.
 
 ## 🔍 Code Analysis & SAST
-- **[Semgrep](https://github.com/semgrep/semgrep)**
-- **[Trivy](https://github.com/aquasecurity/trivy)**
+- **[Semgrep](https://github.com/semgrep/semgrep)**: Motor d'anàlisi estàtica de codi ràpid i multillenguatge.
+- **[Trivy](https://github.com/aquasecurity/trivy)**: Escàner de vulnerabilitats per a contenidors i artefactes.
 
 ## 🕵️ Forensics & Network Analysis
-- **[NetworkMiner](https://www.netresec.com/?page=Networkminer)**
-- **[ForensicsTools](https://github.com/mesquidar/ForensicsTools)**
+- **[NetworkMiner](https://www.netresec.com/?page=Networkminer)**: Eina d'anàlisi forense de xarxa per a Windows i Linux.
+- **[ForensicsTools](https://github.com/mesquidar/ForensicsTools)**: Recull d'eines per a anàlisi forense digital.
 
 ## 🌍 OSINT & Threat Intelligence
 - **[SecurityTrails](https://securitytrails.com/)**: Plataforma per a l'anàlisi de dades de dominis i IPs (ideal per consultar històrics d'IPs).
@@ -68,8 +68,8 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[Pentest Everything](https://viperone.gitbook.io/pentest-everything)**: Guia completa de pentesting i Bug Bounty.
 - **[Pentesting Notes (Incendium)](https://notes.incendium.rocks/pentesting-notes/)**: Recull de notes de camp per a pentesting.
 - **[ADMinions](https://adminions.ca/)**: Recursos i eines centrades en l'explotació d'Active Directory.
-- **[The Hacker Recipes](https://www.thehacker.recipes/)**
+- **[The Hacker Recipes](https://www.thehacker.recipes/)**: Receptari d'atacs contra Active Directory i xarxes Windows.
 
 ## 🤖 AI for Cybersecurity
-- **[PentestGPT](https://github.com/GreyD00r/PentestGPT)**
-- **[Strix](https://github.com/usestrix/strix)**
+- **[PentestGPT](https://github.com/GreyD00r/PentestGPT)**: Agent basat en IA per guiar en processos de pentesting.
+- **[Strix](https://github.com/usestrix/strix)**: Framework de seguretat ofensiva assistit per IA.
