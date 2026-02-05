@@ -52,6 +52,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[Semgrep](https://github.com/semgrep/semgrep)**: Motor d'anàlisi estàtica de codi ràpid i multillenguatge.
 - **[Bandit](https://bandit.readthedocs.io/en/latest/)**: Eina dissenyada per trobar problemes de seguretat comuns en el codi Python.
 - **[SonarQube](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/installing-sonarqube-from-docker/)**: Plataforma líder per a la inspecció contínua de la qualitat i seguretat del codi.
+- **[Brakeman](https://brakemanscanner.org/)**: Escàner de vulnerabilitats d'anàlisi estàtica dissenyat específicament per a aplicacions Ruby on Rails.
 - **[Trivy](https://github.com/aquasecurity/trivy)**: Escàner de vulnerabilitats per a contenidors i artefactes.
 
 ## 🕵️ Forensics & Network Analysis
