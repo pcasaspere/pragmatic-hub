@@ -1,85 +1,79 @@
 # 🛡️ Cyber Intelligence & OSINT Framework
+---
+
+## 🤖 THE AI AGENT OPERATIONAL MANIFESTO (v2.0)
+*Copy this section into the System Prompt of your AI Orchestrator (Claude, Gemini, etc.). This manifesto is tool-agnostic and defines high-level cognitive logic.*
+
+### 1. MISSION & IDENTITY
+You are a **Senior Cyber Threat Intelligence (CTI) Architect**. Your goal is not merely to collect data, but to transform raw information into **Actionable Business Intelligence**. You prioritize high-impact risks that threaten organizational continuity, reputation, and legal privilege.
+
+### 2. OPERATIONAL LOGIC & REASONING (Chain of Thought)
+* **Recursive Discovery:** Every finding is a seed for the next phase. If you discover a host, you must find its services. If you find a service, you must find its version and vulnerabilities.
+* **Identity Correlation:** Never treat an identity in isolation. Link corporate aliases to personal footprints, leaked credentials, and malware-infected logs to build a 360-degree risk profile.
+* **Sector-Specific Contextualization:** * *Tech Firms:* Prioritize API exposures, Cloud misconfigurations, and CI/CD leaks.
+    * *Conventional Firms (Law/Finance):* Prioritize document metadata, session hijacking (cookies), and credential reuse.
+* **Verification over Volume:** Prioritize the quality and recency of intelligence. A fresh session token or cleartext password is 10x more critical than a 5-year-old breach notification.
+
+### 3. PIVOTING RULES (Automatic Escalation)
+* **Rule [Metadata]:** If document metadata reveals internal naming conventions or software paths, immediately initiate a targeted search for those patterns across all public data silos.
+* **Rule [Infection]:** If an identity appears in a historical breach, immediately check for active "Infostealer" logs or session cookies associated with that identity.
+* **Rule [AI Surface]:** If an AI-related endpoint is detected, prioritize testing for data leakage via RAG (Retrieval-Augmented Generation) systems.
+
+### 4. ETHICAL GUARDRAILS & OUTPUT STANDARDS
+* **Non-Intrusive Principles:** All operations must be passive or semi-passive. No Denial of Service (DoS) or aggressive exploitation.
+* **PII Management:** Redact or securely handle Personally Identifiable Information (PII) during intermediate steps.
+* **Standardized Output:** All findings must be structured in **JSON format** to allow for automated cross-referencing and final report synthesis.
+* **Impact Translation:** Always translate technical findings (e.g., "MFA Bypass") into Business Risk (e.g., "Unauthorised Access to Client Litigation Files").
 
 ---
 
-## 🔑 Phase 0: Prerequisites & Client Seed Data
-*Before execution, the client must provide the following "Seed Data" to minimize false positives and focus the audit.*
-
-- [ ] **Core Domain List:** Primary and secondary domains, including legacy and marketing-specific TLDs.
-- [ ] **Infrastructure Scopes:** Official IP ranges (CIDR) and dedicated hosting provider list.
-- [ ] **Cloud Tenant Identifiers:** Organization IDs for AWS, Azure, and Google Cloud.
-- [ ] **VIP/Partner List:** Names, titles, and corporate email addresses of key personnel and stakeholders.
-- [ ] **Legal Entity Names:** Full registered names, VAT/NIF numbers, and known subsidiaries.
-- [ ] **Letter of Authorization (LoA):** Signed document granting permission to perform the audit within specified Rules of Engagement (RoE).
+## 🔑 Phase 0: Prerequisites & Client Seed Data (The Inputs)
+- [ ] **Technical Scope:** Core domains, official IP ranges (CIDR), and Cloud Tenant IDs.
+- [ ] **Identity Scope:** VIP/Partner list (names/titles) and corporate email patterns.
+- [ ] **Corporate Scope:** Full legal names, subsidiaries, and key physical office locations.
+- [ ] **Compliance:** Signed Letter of Authorization (LoA) and defined Rules of Engagement (RoE).
 
 ---
 
-## 🌐 Phase 1: Infrastructure & IP Intelligence (EASM)
-- [ ] **Recursive Subdomain Enumeration:** Passive discovery via CT logs and active brute-forcing using custom wordlists.
-- [ ] **Reverse DNS (PTR) Exploration:** Identifying hidden assets by scanning IP ranges provided in Phase 0.
-- [ ] **ASN & IP Range Mapping:** Determining the organization's full network footprint and Autonomous System Number (ASN) associations.
-- [ ] **IP Reputation & Blacklist Audit:** Checking if corporate IPs are flagged for spam, C&C activity, or as part of a botnet.
-- [ ] **Port & Service Fingerprinting:** Full-spectrum scanning for exposed services (RDP, SSH, Database, SMB) and banner grabbing for versioning.
-- [ ] **Geo-location & Hosting Analysis:** Mapping the physical location of servers to identify geopolitical risks or non-compliance with data residency laws.
-- [ ] **DNS Security Validation:** Verifying SPF, DKIM, DMARC, DNSSEC, and BIMI records.
+## 🌐 PART I: Infrastructure & External Attack Surface (EASM)
+- [ ] **Recursive Asset Discovery:** Subdomain and virtual host mapping.
+- [ ] **Network Footprint Analysis:** ASN mapping, IP reputation, and reverse DNS exploration.
+- [ ] **Service Fingerprinting:** Identification of exposed services, versions, and management interfaces.
+- [ ] **Email Infrastructure Security:** Audit of DNS records (SPF, DKIM, DMARC, DNSSEC, BIMI).
 
-## ☁️ Phase 2: Cloud, SaaS & Secret Intelligence
-- [ ] **Multi-Cloud Storage Discovery:** Fuzzing for public S3, Azure Blobs, and GCP Buckets using company keywords.
-- [ ] **SaaS Data Leakage:** Searching for indexed internal data in Trello, Jira, Notion, Slack, and Confluence.
-- [ ] **Public Repository Secret Scanning:** Real-time and historical scanning of GitHub, GitLab, and Bitbucket for leaked keys and `.env` files.
-- [ ] **CI/CD Pipeline Exposure:** Identifying misconfigured Jenkins, CircleCI, or GitHub Actions that leak environment variables.
+## 📄 PART II: Information & Metadata Intelligence (Conventional Focus)
+- [ ] **Document Metadata Exfiltration:** Extraction of usernames, server paths, and software versions from public files.
+- [ ] **Sensitive Data Dorking:** Automated search for indexed files tagged as "Confidential" or "Internal".
+- [ ] **Supply Chain Footprinting:** Mapping of MSPs, hosting partners, and third-party SaaS vendors.
 
-## 🤖 Phase 3: AI Surface & LLM Footprinting
-- [ ] **AI Endpoint Discovery:** Identifying public LLM APIs or self-hosted model servers (Ollama/vLLM) that lack authentication.
-- [ ] **Vector Database Audit:** Checking for exposed Pinecone, Milvus, or Weaviate instances containing RAG data.
-- [ ] **RAG Knowledge Leakage:** Testing for internal document leakage via prompt injection on public-facing AI agents.
-- [ ] **Shadow AI Inventory:** Detecting unauthorized AI platform usage via corporate domain telemetry.
+## 🤖 PART III: Modern Surface & AI Exposure
+- [ ] **Cloud & Object Storage Audit:** Discovery of misconfigured public storage buckets.
+- [ ] **AI Endpoint Footprinting:** Identification of exposed LLM APIs or RAG-related Vector Databases.
+- [ ] **Secret & Credential Discovery:** Scanning public code repositories for leaked secrets, keys, and tokens.
 
----
-
-## 🏛️ Phase 4: Conventional Firm Specialization (Law, Finance, Consulting)
-- [ ] **Automated Metadata Harvesting:** Bulk downloading public PDFs/DOCXs to extract internal usernames, software versions, and local server paths.
-- [ ] **Indexed Document Dorking:** Identifying "Confidential" or "Privileged" files indexed by search engines.
-- [ ] **Corporate Structure Mapping:** Using official registries (OpenCorporates) to identify vulnerable subsidiaries.
-- [ ] **Litigation & Filing Intelligence:** Analyzing court records and regulatory filings for technical details of the firm's infrastructure.
-- [ ] **Office Security OSINT:** Analyzing high-res photos for badge types, hardware models, and physical security gaps.
+## ☣️ PART IV: Breach, Identity & Infection Intelligence
+- [ ] **Historical Breach Mapping:** Identification of corporate identities in historical leaks.
+- [ ] **Infection Intelligence (Infostealers):** Identification of compromised devices, active session cookies, and autofill data.
+- [ ] **Credential Pattern Analysis:** Prediction of current credentials based on historical reuse patterns.
+- [ ] **Synthetic Identity Risk:** Audit of VIP media for AI-driven impersonation (Deepfake) potential.
 
 ---
 
-## ☣️ Phase 5: Identity, Breach & Infection Intelligence
-- [ ] **SOCMINT & Identity Correlation:** Mapping corporate aliases to personal footprints across 400+ platforms.
-- [ ] **Cleartext Password Recovery:** Using commercial APIs (DeHashed/IntelX) to find plaintext credentials from historical breaches.
-- [ ] **Infostealer Log Analysis:** Querying specialized databases (Hudson Rock) for malware-infected devices, active session tokens, and autofill data.
-- [ ] **Deepfake Vulnerability Assessment:** Auditing available VIP media for potential AI voice/video cloning.
+## ⚖️ PART V: Synthesis & Risk Assessment
+- [ ] **Attack Path Visualization:** Connecting findings into a logical kill-chain.
+- [ ] **Automated Risk Scoring:** Applying CVSS/EPSS scoring to all identified vulnerabilities.
+- [ ] **Business Impact Reporting:** AI-assisted translation of technical findings into a strategic risk profile.
 
 ---
 
-## ⚖️ Phase 6: Synthesis & Automated Reporting
-- [ ] **Attack Path Visualization:** Correlating leaked secrets or exposed IPs into a logical kill-chain.
-- [ ] **Automated Risk Scoring:** Applying CVSS/EPSS scores to all findings based on real-world exploitability.
-- [ ] **Executive Summary:** AI-assisted generation of a high-level risk profile for stakeholders.
+## 🛠️ Requirements for Automated Execution
 
----
+### 1. Mandatory Data Pipeline (APIs)
+* **Global Discovery:** Infrastructure and service enumeration.
+* **Credential Intel:** Access to cleartext breach databases and historical leaks.
+* **Infection Intel:** Specialized access to Infostealer log databases (Critical).
+* **Corporate Registry:** Access to international legal and company registries.
 
-## 🧰 Expert Automation Toolset (CLI)
-
-| Tool | Focus | Command for JSON/Automated Output |
-| :--- | :--- | :--- |
-| **naabu** | IP Ports | `naabu -host 1.1.1.1 -json -o ports.json` |
-| **subfinder** | Domains | `subfinder -d domain.com -json -o subs.json` |
-| **httpx** | Validation | `httpx -l subs.json -json -o active.json` |
-| **nuclei** | Vulnerability | `nuclei -l active.json -json -o vulns.json` |
-| **h8mail** | Breach Intel | `h8mail -t target@domain.com -j report.json` |
-| **exiftool** | Metadata | `exiftool -json *.pdf > metadata.json` |
-
----
-
-## 🔑 Required API Environment Variables
-- `SECURITYTRAILS_API`: Domain & DNS history.
-- `SHODAN_API`: IP & Service discovery.
-- `DEHASHED_API`: Cleartext password recovery.
-- `HUDSON_ROCK_API`: Infostealer & Infection intelligence.
-- `OPENCORPORATES_API`: Legal/Conventional firm mapping.
-- `OPENAI_API_KEY`: Automated report synthesis.
-
-*Generated by Pere Casas v.2026*
+### 2. Execution Environment
+* **Orchestration:** Python-based wrapper or MCP-enabled LLM.
+* **Output Format:** All tool results must be converted to JSON before AI analysis.
