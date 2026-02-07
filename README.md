@@ -29,6 +29,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[Nuclei](https://github.com/projectdiscovery/nuclei)**: Escàner basat en plantilles.
 - **[Katana](https://github.com/projectdiscovery/katana)**: Crawler d'última generació.
 - **[Sliver](https://github.com/BishopFox/sliver)**: Framework de C2 Open Source.
+- **[ffuf](https://github.com/ffuf/ffuf)**: Fuzzer web ràpid escrit en Go.
 
 ## 🏗️ Industrial Control Systems (ICS/OT)
 - **[Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols)**: Recull de protocols industrials i eines d'anàlisi.
@@ -42,11 +43,14 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[Lynis](https://cisofy.com/lynis/)**: Eina d'auditoria de seguretat per a sistemes Unix/Linux.
 - **[SSH Monitor](scripts/python/ssh_monitor.py)**: Script personalitzat per monitoritzar accessos SSH.
 - **[pspy](https://github.com/DominicBreuker/pspy)**: Monitorització de processos en Linux sense permisos de root.
+- **[nmap](https://nmap.org/)**: L'estàndard per a l'exploració de xarxa i auditoria de seguretat.
+- **[exiftool](https://exiftool.org/)**: Eina per llegir, escriure i editar metadades en una gran varietat de fitxers.
 
 ## ☁️ Cloud Security
 - **[Prowler](https://github.com/prowler-cloud/prowler)**: Eina d'auditoria i hardening per a AWS, Azure i GCP.
 - **[CloudFox](https://github.com/BishopFox/cloudfox)**: Eina per ajudar a trobar vectors d'atac en infraestructures cloud.
 - **[Pacu](https://github.com/RhinoSecurityLabs/pacu)**: Framework d'explotació per a AWS.
+- **[cloud_enum](https://github.com/initstring/cloud_enum)**: Eina per enumerar recursos públics en els principals proveïdors de cloud.
 
 ## 🔍 Code Analysis & SAST
 - **[Semgrep](https://github.com/semgrep/semgrep)**: Motor d'anàlisi estàtica de codi ràpid i multillenguatge.
@@ -54,6 +58,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[SonarQube](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/installing-sonarqube-from-docker/)**: Plataforma líder per a la inspecció contínua de la qualitat i seguretat del codi.
 - **[Brakeman](https://brakemanscanner.org/)**: Escàner de vulnerabilitats d'anàlisi estàtica dissenyat específicament per a aplicacions Ruby on Rails.
 - **[Trivy](https://github.com/aquasecurity/trivy)**: Escàner de vulnerabilitats per a contenidors i artefactes.
+- **[trufflehog](https://github.com/trufflesecurity/trufflehog)**: Busca secrets i claus d'API filtrades en repositoris i sistemes de fitxers.
 
 ## 🕵️ Forensics & Network Analysis
 - **[NetworkMiner](https://www.netresec.com/?page=Networkminer)**: Eina d'anàlisi forense de xarxa per a Windows i Linux.
@@ -65,6 +70,15 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[Hunter.io](https://hunter.io/)**: Eina per trobar i verificar adreces de correu electrònic associades a un domini.
 - **[Criminal IP](https://www.criminalip.io/)**: Cercador de CTI que permet trobar dispositius exposats i vulnerabilitats.
 - **[urlscan.io](https://urlscan.io/)**: Escàner de seguretat per a llocs web que analitza el comportament de navegació i recursos carregats.
+- **[whois](https://www.whois.com/)**: Protocol per consultar bases de dades que emmagatzemen els usuaris registrats d'un recurs d'Internet.
+- **[dig](https://linux.die.net/man/1/dig)**: Eina de línia d'ordres per a interrogacions a servidors de noms DNS.
+- **[theHarvester](https://github.com/laramies/theHarvester)**: Eina per a la recol·lecció de correus, subdominis, hosts, noms d'empleats i ports oberts.
+- **[sherlock](https://github.com/sherlock-project/sherlock)**: Busca comptes de xarxes socials per nom d'usuari en centenars de llocs web.
+- **[dnstwist](https://github.com/elceef/dnstwist)**: Motor de permutació de dominis per detectar typosquatting i phishing.
+- **[recon-ng](https://github.com/lanmaster53/recon-ng)**: Framework complet de reconeixement web escrit en Python.
+- **[holehe](https://github.com/megadose/holehe)**: Comprova si un correu electrònic està utilitzat en més de 120 llocs web.
+- **[waybackurls](https://github.com/tomnomnom/waybackurls)**: Accepta dominis i recupera totes les URLs que la Wayback Machine coneix per a ells.
+- **[social-analyzer](https://github.com/qeeqbox/social-analyzer)**: API i CLI per analitzar i buscar perfils en xarxes socials.
 
 ## 📚 Knowledge Bases & Learning
 - **[HackTricks](https://book.hacktricks.wiki/)**: La biblia de la seguretat ofensiva i el pentesting.
