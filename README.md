@@ -79,6 +79,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[holehe](https://github.com/megadose/holehe)**: Comprova si un correu electrònic està utilitzat en més de 120 llocs web.
 - **[waybackurls](https://github.com/tomnomnom/waybackurls)**: Accepta dominis i recupera totes les URLs que la Wayback Machine coneix per a ells.
 - **[social-analyzer](https://github.com/qeeqbox/social-analyzer)**: API i CLI per analitzar i buscar perfils en xarxes socials.
+- **[h8mail](https://github.com/khast3x/h8mail)**: Eina d'anàlisi de filtracions de correu electrònic i cerca de contrasenyes per a OSINT.
 
 ## 📚 Knowledge Bases & Learning
 - **[HackTricks](https://book.hacktricks.wiki/)**: La biblia de la seguretat ofensiva i el pentesting.
