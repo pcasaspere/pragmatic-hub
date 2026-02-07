@@ -69,6 +69,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - **[crt.sh](https://crt.sh/)**: Cercador de certificats SSL/TLS per enumerar subdominis a través de Certificate Transparency.
 - **[Hunter.io](https://hunter.io/)**: Eina per trobar i verificar adreces de correu electrònic associades a un domini.
 - **[Criminal IP](https://www.criminalip.io/)**: Cercador de CTI que permet trobar dispositius exposats i vulnerabilitats.
+- **[DeHashed](https://www.dehashed.com/)**: Cercador de dades filtrades i actius exposats, ideal per auditar credencials en text clar i hashes.
 - **[urlscan.io](https://urlscan.io/)**: Escàner de seguretat per a llocs web que analitza el comportament de navegació i recursos carregats.
 - **[whois](https://www.whois.com/)**: Protocol per consultar bases de dades que emmagatzemen els usuaris registrats d'un recurs d'Internet.
 - **[dig](https://linux.die.net/man/1/dig)**: Eina de línia d'ordres per a interrogacions a servidors de noms DNS.
