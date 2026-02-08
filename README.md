@@ -92,3 +92,4 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 ## 🤖 AI for Cybersecurity
 - **[PentestGPT](https://github.com/GreyD00r/PentestGPT)**: Agent basat en IA per guiar en processos de pentesting.
 - **[Strix](https://github.com/usestrix/strix)**: Framework de seguretat ofensiva assistit per IA.
+- **[AGENTS.md](https://agents.md/)**: Proposta d'estàndard obert per guiar agents d'IA en repositoris de codi (context, comandes i estil).
