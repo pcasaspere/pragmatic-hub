@@ -76,6 +76,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | :--- | :--- |
 | **[NetworkMiner](https://www.netresec.com/?page=Networkminer)** | Anàlisi forense de xarxa (PCAP). |
 | **[ForensicsTools](https://github.com/mesquidar/ForensicsTools)** | Recull d'eines per a forense digital. |
+| **[LogonTracer](https://github.com/JPCERTCC/LogonTracer)** | Investigació visual de logons maliciosos a AD mitjançant l'anàlisi d'esdeveniments de Windows. |
 
 ## 🌍 OSINT & Threat Intelligence
 | Eina | Descripció |
@@ -108,7 +109,6 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | Recurs | Descripció |
 | :--- | :--- |
 | **[PentestGPT](https://github.com/GreyD00r/PentestGPT)** | Agent d'IA per a pentesting. |
-| **[LogonTracer](https://github.com/JPCERTCC/LogonTracer)** | Investigació visual de logons maliciosos a AD mitjançant l'anàlisi d'esdeveniments de Windows. |
 | **[Strix](https://github.com/usestrix/strix)** | Seguretat ofensiva assistida per IA. |
 | **[AGENTS.md](https://agents.md/)** | Estàndard per guiar agents d'IA en repositoris. |
 | **[ClawSec](https://github.com/prompt-security/clawsec)** | Suite de seguretat per a OpenClaw (protecció de SOUL.md i auditories). |
