@@ -31,6 +31,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[Nuclei](https://github.com/projectdiscovery/nuclei)** | Escàner basat en plantilles. |
 | **[Katana](https://github.com/projectdiscovery/katana)** | Crawler d'última generació. |
 | **[Sliver](https://github.com/BishopFox/sliver)** | Framework de C2 Open Source. |
+| **[Hetty](https://github.com/dstotijn/hetty)** | Toolkit HTTP per a recerca en seguretat, alternativa open source a Burp Suite Pro. |
 | **[ffuf](https://github.com/ffuf/ffuf)** | Fuzzer web ràpid escrit en Go. |
 
 ## 🏗️ Industrial Control Systems (ICS/OT)
