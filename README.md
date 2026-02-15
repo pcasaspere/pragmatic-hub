@@ -115,3 +115,9 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[Strix](https://github.com/usestrix/strix)** | Seguretat ofensiva assistida per IA. |
 | **[AGENTS.md](https://agents.md/)** | Estàndard per guiar agents d'IA en repositoris. |
 | **[ClawSec](https://github.com/prompt-security/clawsec)** | Suite de seguretat per a OpenClaw (protecció de SOUL.md i auditories). |
+
+## 📚 Awesome Lists & Frameworks
+| Recurs | Descripció |
+| :--- | :--- |
+| **[Awesome Lists](https://github.com/mthcht/awesome-lists)** | Una col·lecció massiva de llistes "awesome" centrades en ciberseguretat, eines i payloads. |
+
