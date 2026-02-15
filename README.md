@@ -33,6 +33,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[Sliver](https://github.com/BishopFox/sliver)** | Framework de C2 Open Source. |
 | **[Hetty](https://github.com/dstotijn/hetty)** | Toolkit HTTP per a recerca en seguretat, alternativa open source a Burp Suite Pro. |
 | **[ffuf](https://github.com/ffuf/ffuf)** | Fuzzer web ràpid escrit en Go. |
+| **[EnumRust](https://github.com/KingOfBugbounty/enumrust)** | Escàner de seguretat avançat en Rust amb dashboard en temps real per a Bug Bounty. |
 
 ## 🏗️ Industrial Control Systems (ICS/OT)
 | Eina | Descripció |
