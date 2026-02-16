@@ -122,6 +122,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** | Protocol obert per a la interoperabilitat entre agents i eines (estàndard de facto). |
 | **[MCP Servers Directory](https://github.com/modelcontextprotocol/servers)** | Llistat oficial de servidors MCP per connectar agents a bases de dades, APIs i eines. |
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | L'ecosistema d'agents on corre l'EscorBot. |
+| **[Local Agents Directory](agents/)** | Carpeta local del repositori per a la gestió i documentació d'agents propis. |
 | **[AGENTS.md](https://agents.md/)** | Estàndard per guiar agents d'IA en repositoris i workspaces. |
 
 ## 📚 Knowledge Bases & Learning
