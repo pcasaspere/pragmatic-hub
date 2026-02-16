@@ -11,76 +11,19 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - [⚙️ Linux Security & Hardening](payloads-and-commands/linux-and-hardening.md)
 
 ### 🛠️ Eines i Recursos per Categoria
-- [🛡️ Offensive Security (Pentesting & Bug Bounty)](#️-offensive-security-pentesting--bug-bounty)
-- [🏗️ Industrial Control Systems (ICS/OT)](#️-industrial-control-systems-icsot)
-- [⚙️ Infrastructure, Linux & Hardening](#️-infrastructure-linux--hardening)
-- [☁️ Cloud Security](#️-cloud-security)
-- [🔍 Code Analysis & SAST](#-code-analysis--sast)
-- [🕵️ Forensics & Network Analysis](#️-forensics--network-analysis)
-- [🌍 OSINT & Threat Intelligence](#-osint--threat-intelligence)
-- [📚 Knowledge Bases & Learning](#-knowledge-bases--learning)
-- [🛡️ Digital Sovereignty, Privacy & Self-Defense](#️-digital-sovereignty-privacy--self-defense)
-- [🤖 AI for Cybersecurity](#-ai-for-cybersecurity)
+1. [🌍 OSINT & Threat Intelligence](#-osint--threat-intelligence) (Fase 1: Reconeixement extern)
+2. [🔍 Code Analysis & SAST](#-code-analysis--sast) (Fase 2: Anàlisi de codi i superfície)
+3. [🛡️ Offensive Security (Pentesting & Bug Bounty)](#️-offensive-security-pentesting--bug-bounty) (Fase 3: Explotació i auditoria activa)
+4. [☁️ Cloud Security](#️-cloud-security) (Fase 4: Infraestructura Cloud)
+5. [🏗️ Industrial Control Systems (ICS/OT)](#️-industrial-control-systems-icsot) (Fase 5: Sistemes industrials)
+6. [⚙️ Infrastructure, Linux & Hardening](#️-infrastructure-linux--hardening) (Fase 6: Hardening i Post-explotació)
+7. [🕵️ Forensics & Network Analysis](#️-forensics--network-analysis) (Fase 7: Anàlisi d'incidents i xarxa)
+8. [🛡️ Digital Sovereignty, Privacy & Self-Defense](#️-digital-sovereignty-privacy--self-defense) (Fonaments de defensa)
+9. [🤖 AI for Cybersecurity](#-ai-for-cybersecurity) (Agents i suport IA)
+10. [📚 Knowledge Bases & Learning](#-knowledge-bases--learning) (Documentació i bases de coneixement)
+11. [📚 Awesome Lists & Frameworks](#-awesome-lists--frameworks) (Recursos externs)
 
 ---
-
-## 🛡️ Offensive Security (Pentesting & Bug Bounty)
-| Eina | Descripció |
-| :--- | :--- |
-| **[Amass](https://github.com/owasp-amass/amass)** | Mapeig profund de la superfície d'atac. |
-| **[Subfinder](https://github.com/projectdiscovery/subfinder)** | Enumeració de subdominis ràpida. |
-| **[Nuclei](https://github.com/projectdiscovery/nuclei)** | Escàner basat en plantilles. |
-| **[Katana](https://github.com/projectdiscovery/katana)** | Crawler d'última generació. |
-| **[Sliver](https://github.com/BishopFox/sliver)** | Framework de C2 Open Source. |
-| **[Hetty](https://github.com/dstotijn/hetty)** | Toolkit HTTP per a recerca en seguretat, alternativa open source a Burp Suite Pro. |
-| **[ffuf](https://github.com/ffuf/ffuf)** | Fuzzer web ràpid escrit en Go. |
-| **[EnumRust](https://github.com/KingOfBugbounty/enumrust)** | Escàner de seguretat avançat en Rust amb dashboard en temps real per a Bug Bounty. |
-
-## 🏗️ Industrial Control Systems (ICS/OT)
-| Eina | Descripció |
-| :--- | :--- |
-| **[Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols)** | Recull de protocols industrials i eines d'anàlisi. |
-| **[Awesome ICS Security](https://github.com/hslatman/awesome-industrial-control-system-security)** | Recursos de seguretat en sistemes de control industrial. |
-| **[Grassmarlin](https://github.com/nsacyber/grassmarlin)** | Descoberta de xarxes industrials (NSA). |
-| **[S7Scan](https://github.com/moki-ics/s7scan)** | Escàner per a dispositius Siemens S7. |
-
-## ⚙️ Infrastructure, Linux & Hardening
-| Eina | Descripció |
-| :--- | :--- |
-| **[RHEL 9 Security Hardening](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/index)** | Guia oficial de Red Hat per assegurar RHEL 9. |
-| **[Exploit Notes](https://exploit-notes.hdks.org/)** | Notes detallades sobre explotació i CTFs. |
-| **[Lynis](https://cisofy.com/lynis/)** | Auditoria de seguretat per a sistemes Unix/Linux. |
-| **[SSH Monitor](scripts/python/ssh_monitor.py)** | Script per monitoritzar accessos SSH. |
-| **[pspy](https://github.com/DominicBreuker/pspy)** | Monitorització de processos sense root. |
-| **[nmap](https://nmap.org/)** | Estàndard per a exploració de xarxa. |
-| **[BunkerWeb](https://github.com/bunkerity/bunkerweb)** | WAF de nova generació basat en NGINX, "secure by default". |
-| **[exiftool](https://exiftool.org/)** | Lectura i edició de metadades de fitxers. |
-
-## ☁️ Cloud Security
-| Eina | Descripció |
-| :--- | :--- |
-| **[Prowler](https://github.com/prowler-cloud/prowler)** | Auditoria i hardening per a AWS, Azure i GCP. |
-| **[CloudFox](https://github.com/BishopFox/cloudfox)** | Vectors d'atac en infraestructures cloud. |
-| **[Pacu](https://github.com/RhinoSecurityLabs/pacu)** | Framework d'explotació per a AWS. |
-| **[cloud_enum](https://github.com/initstring/cloud_enum)** | Enumeració de recursos públics en cloud. |
-
-## 🔍 Code Analysis & SAST
-| Eina | Descripció |
-| :--- | :--- |
-| **[Semgrep](https://github.com/semgrep/semgrep)** | Motor d'anàlisi estàtica de codi multillenguatge. |
-| **[Bandit](https://bandit.readthedocs.io/en/latest/)** | Troba problemes de seguretat en codi Python. |
-| **[SonarQube](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/installing-sonarqube-from-docker/)** | Inspecció contínua de qualitat i seguretat. |
-| **[Brakeman](https://brakemanscanner.org/)** | Escàner de vulnerabilitats per a Ruby on Rails. |
-| **[Trivy](https://github.com/aquasecurity/trivy)** | Escàner per a contenidors i artefactes. |
-| **[trufflehog](https://github.com/trufflesecurity/trufflehog)** | Busca secrets i claus filtrades en repos. |
-
-## 🕵️ Forensics & Network Analysis
-| Eina | Descripció |
-| :--- | :--- |
-| **[NetworkMiner](https://www.netresec.com/?page=Networkminer)** | Anàlisi forense de xarxa (PCAP). |
-| **[ForensicsTools](https://github.com/mesquidar/ForensicsTools)** | Recull d'eines per a forense digital. |
-| **[LogonTracer](https://github.com/JPCERTCC/LogonTracer)** | Investigació visual de logons maliciosos a AD mitjançant l'anàlisi d'esdeveniments de Windows. |
-| **[Aurora IR](https://github.com/cyb3rfox/Aurora-Incident-Response)** | Eina per a la documentació i seguiment de troballes durant investigacions d'Incident Response (IR). |
 
 ## 🌍 OSINT & Threat Intelligence
 | Eina | Descripció |
@@ -101,20 +44,69 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[social-analyzer](https://github.com/qeeqbox/social-analyzer)** | API/CLI per buscar perfils socials. |
 | **[h8mail](https://github.com/khast3x/h8mail)** | Anàlisi de filtracions de correu. |
 
-## 📚 Knowledge Bases & Learning
-| Recurs | Descripció |
+## 🔍 Code Analysis & SAST
+| Eina | Descripció |
 | :--- | :--- |
-| **[HackTricks](https://book.hacktricks.wiki/)** | La biblia del pentesting i seguretat ofensiva. |
-| **[Pentest Everything](https://viperone.gitbook.io/pentest-everything)** | Guia completa de Bug Bounty. |
-| **[Pentesting Notes](https://notes.incendium.rocks/pentesting-notes/)** | Notes de camp per a pentesting. |
-| **[ADMinions](https://adminions.ca/)** | Explotació d'Active Directory. |
-| **[The Hacker Recipes](https://www.thehacker.recipes/)** | Atacs contra AD i xarxes Windows. |
+| **[Semgrep](https://github.com/semgrep/semgrep)** | Motor d'anàlisi estàtica de codi multillenguatge. |
+| **[Bandit](https://bandit.readthedocs.io/en/latest/)** | Troba problemes de seguretat en codi Python. |
+| **[SonarQube](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/installing-sonarqube-from-docker/)** | Inspecció contínua de qualitat i seguretat. |
+| **[Brakeman](https://brakemanscanner.org/)** | Escàner de vulnerabilitats per a Ruby on Rails. |
+| **[Trivy](https://github.com/aquasecurity/trivy)** | Escàner per a contenidors i artefactes. |
+| **[trufflehog](https://github.com/trufflesecurity/trufflehog)** | Busca secrets i claus filtrades en repos. |
+
+## 🛡️ Offensive Security (Pentesting & Bug Bounty)
+| Eina | Descripció |
+| :--- | :--- |
+| **[Amass](https://github.com/owasp-amass/amass)** | Mapeig profund de la superfície d'atac. |
+| **[Subfinder](https://github.com/projectdiscovery/subfinder)** | Enumeració de subdominis ràpida. |
+| **[Nuclei](https://github.com/projectdiscovery/nuclei)** | Escàner basat en plantilles. |
+| **[Katana](https://github.com/projectdiscovery/katana)** | Crawler d'última generació. |
+| **[Sliver](https://github.com/BishopFox/sliver)** | Framework de C2 Open Source. |
+| **[Hetty](https://github.com/dstotijn/hetty)** | Toolkit HTTP per a recerca en seguretat, alternativa open source a Burp Suite Pro. |
+| **[ffuf](https://github.com/ffuf/ffuf)** | Fuzzer web ràpid escrit en Go. |
+| **[EnumRust](https://github.com/KingOfBugbounty/enumrust)** | Escàner de seguretat avançat en Rust amb dashboard en temps real per a Bug Bounty. |
+
+## ☁️ Cloud Security
+| Eina | Descripció |
+| :--- | :--- |
+| **[Prowler](https://github.com/prowler-cloud/prowler)** | Auditoria i hardening per a AWS, Azure i GCP. |
+| **[CloudFox](https://github.com/BishopFox/cloudfox)** | Vectors d'atac en infraestructures cloud. |
+| **[Pacu](https://github.com/RhinoSecurityLabs/pacu)** | Framework d'explotació per a AWS. |
+| **[cloud_enum](https://github.com/initstring/cloud_enum)** | Enumeració de recursos públics en cloud. |
+
+## 🏗️ Industrial Control Systems (ICS/OT)
+| Eina | Descripció |
+| :--- | :--- |
+| **[Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols)** | Recull de protocols industrials i eines d'anàlisi. |
+| **[Awesome ICS Security](https://github.com/hslatman/awesome-industrial-control-system-security)** | Recursos de seguretat en sistemes de control industrial. |
+| **[Grassmarlin](https://github.com/nsacyber/grassmarlin)** | Descoberta de xarxes industrials (NSA). |
+| **[S7Scan](https://github.com/moki-ics/s7scan)** | Escàner per a dispositius Siemens S7. |
+
+## ⚙️ Infrastructure, Linux & Hardening
+| Eina | Descripció |
+| :--- | :--- |
+| **[RHEL 9 Security Hardening](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/index)** | Guia oficial de Red Hat per assegurar RHEL 9. |
+| **[Exploit Notes](https://exploit-notes.hdks.org/)** | Notes detallades sobre explotació i CTFs. |
+| **[Lynis](https://cisofy.com/lynis/)** | Auditoria de seguretat per a sistemes Unix/Linux. |
+| **[SSH Monitor](scripts/python/ssh_monitor.py)** | Script per monitoritzar accessos SSH. |
+| **[pspy](https://github.com/DominicBreuker/pspy)** | Monitorització de processos sense root. |
+| **[nmap](https://nmap.org/)** | Estàndard per a exploració de xarxa. |
+| **[BunkerWeb](https://github.com/bunkerity/bunkerweb)** | WAF de nova generació basat en NGINX, \"secure by default\". |
+| **[exiftool](https://exiftool.org/)** | Lectura i edició de metadades de fitxers. |
+
+## 🕵️ Forensics & Network Analysis
+| Eina | Descripció |
+| :--- | :--- |
+| **[NetworkMiner](https://www.netresec.com/?page=Networkminer)** | Anàlisi forense de xarxa (PCAP). |
+| **[ForensicsTools](https://github.com/mesquidar/ForensicsTools)** | Recull d'eines per a forense digital. |
+| **[LogonTracer](https://github.com/JPCERTCC/LogonTracer)** | Investigació visual de logons maliciosos a AD mitjançant l'anàlisi d'esdeveniments de Windows. |
+| **[Aurora IR](https://github.com/cyb3rfox/Aurora-Incident-Response)** | Eina per a la documentació i seguiment de troballes durant investigacions d'Incident Response (IR). |
 
 ## 🛡️ Digital Sovereignty, Privacy & Self-Defense
 | Recurs | Descripció |
 | :--- | :--- |
 | **[StevenBlack/hosts](https://github.com/StevenBlack/hosts)** | Llistes de hosts consolidades per a bloqueig de publicitat i malware a nivell de DNS. |
-| **[OISD](https://oisd.nl/)** | Una de les llistes de bloqueig més completes i mantingudes, optimitzada per evitar "false positives". |
+| **[OISD](https://oisd.nl/)** | Una de les llistes de bloqueig més completes i mantingudes, optimitzada per evitar \"false positives\". |
 | **[Keep Android Open](https://keepandroidopen.org/)** | Moviment de resistència contra el tancament de l'ecosistema Android i la pèrdua de control del hardware. |
 | **[Privacy Guides](https://www.privacyguides.org/)** | Guies i recomanacions per a l'ús de software i hardware que respecti la privacitat. |
 
@@ -126,8 +118,16 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[AGENTS.md](https://agents.md/)** | Estàndard per guiar agents d'IA en repositoris. |
 | **[ClawSec](https://github.com/prompt-security/clawsec)** | Suite de seguretat per a OpenClaw (protecció de SOUL.md i auditories). |
 
+## 📚 Knowledge Bases & Learning
+| Recurs | Descripció |
+| :--- | :--- |
+| **[HackTricks](https://book.hacktricks.wiki/)** | La biblia del pentesting i seguretat ofensiva. |
+| **[Pentest Everything](https://viperone.gitbook.io/pentest-everything)** | Guia completa de Bug Bounty. |
+| **[Pentesting Notes](https://notes.incendium.rocks/pentesting-notes/)** | Notes de camp per a pentesting. |
+| **[ADMinions](https://adminions.ca/)** | Explotació d'Active Directory. |
+| **[The Hacker Recipes](https://www.thehacker.recipes/)** | Atacs contra AD i xarxes Windows. |
+
 ## 📚 Awesome Lists & Frameworks
 | Recurs | Descripció |
 | :--- | :--- |
-| **[Awesome Lists](https://github.com/mthcht/awesome-lists)** | Una col·lecció massiva de llistes "awesome" centrades en ciberseguretat, eines i payloads. |
-
+| **[Awesome Lists](https://github.com/mthcht/awesome-lists)** | Una col·lecció massiva de llistes \"awesome\" centrades en ciberseguretat, eines i payloads. |
