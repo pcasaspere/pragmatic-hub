@@ -11,17 +11,20 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - [⚙️ Linux Security & Hardening](payloads-and-commands/linux-and-hardening.md)
 
 ### 🛠️ Eines i Recursos per Categoria
-1. [🌍 OSINT & Threat Intelligence](#-osint--threat-intelligence) (Fase 1: Reconeixement extern)
-2. [🔍 Code Analysis & SAST](#-code-analysis--sast) (Fase 2: Anàlisi de codi i superfície)
-3. [🛡️ Offensive Security (Pentesting & Bug Bounty)](#️-offensive-security-pentesting--bug-bounty) (Fase 3: Explotació i auditoria activa)
-4. [☁️ Cloud Security](#️-cloud-security) (Fase 4: Infraestructura Cloud)
-5. [🏗️ Industrial Control Systems (ICS/OT)](#️-industrial-control-systems-icsot) (Fase 5: Sistemes industrials)
-6. [⚙️ Infrastructure, Linux & Hardening](#️-infrastructure-linux--hardening) (Fase 6: Hardening i Post-explotació)
-7. [🕵️ Forensics & Network Analysis](#️-forensics--network-analysis) (Fase 7: Anàlisi d'incidents i xarxa)
-8. [🛡️ Digital Sovereignty, Privacy & Self-Defense](#️-digital-sovereignty-privacy--self-defense) (Fonaments de defensa)
-9. [🤖 AI for Cybersecurity](#-ai-for-cybersecurity) (Agents i suport IA)
-10. [📚 Knowledge Bases & Learning](#-knowledge-bases--learning) (Documentació i bases de coneixement)
-11. [📚 Awesome Lists & Frameworks](#-awesome-lists--frameworks) (Recursos externs)
+
+| Fase / Àmbit | Categoria | Descripció |
+| :--- | :--- | :--- |
+| **Fase 1: Recon** | [🌍 OSINT & Threat Intelligence](#-osint--threat-intelligence) | Reconeixement extern i intel·ligència d'amenaces. |
+| **Fase 2: Anàlisi** | [🔍 Code Analysis & SAST](#-code-analysis--sast) | Auditoria de codi font i anàlisi de superfície. |
+| **Fase 3: Atac** | [🛡️ Offensive Security](#️-offensive-security-pentesting--bug-bounty) | Pentesting, Bug Bounty i eines d'explotació activa. |
+| **Fase 4: Cloud** | [☁️ Cloud Security](#️-cloud-security) | Seguretat en entorns AWS, Azure i GCP. |
+| **Fase 5: OT** | [🏗️ Industrial Control Systems](#️-industrial-control-systems-icsot) | Seguretat en xarxes industrials i protocols crítics. |
+| **Fase 6: Defens** | [⚙️ Infrastructure & Hardening](#️-infrastructure-linux--hardening) | Post-explotació, seguretat Linux i tancament de sistemes. |
+| **Fase 7: DFIR** | [🕵️ Forensics & Network Analysis](#️-forensics--network-analysis) | Anàlisi forense digital i resposta a incidents. |
+| **Sovereignty** | [🛡️ Digital Sovereignty & Privacy](#️-digital-sovereignty-privacy--self-defense) | Autodefensa digital, privacitat i sobirania. |
+| **Intelligence** | [🤖 AI for Cybersecurity](#-ai-for-cybersecurity) | Agents d'IA i eines assistides per models de llenguatge. |
+| **Knowledge** | [📚 Knowledge Bases & Learning](#-knowledge-bases--learning) | Recursos d'aprenentatge i bases de dades de tècniques. |
+| **Frameworks** | [📚 Awesome Lists & Frameworks](#-awesome-lists--frameworks) | Col·leccions externes de recursos i llistes curades. |
 
 ---
 
