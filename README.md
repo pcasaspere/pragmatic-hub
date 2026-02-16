@@ -4,27 +4,22 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 
 ## 📋 Índex de Continguts
 
-### 🚀 Operacions (Comandes i Payloads)
-- [⚡ Power Workflows (Automation)](payloads-and-commands/workflows.md)
-- [🎯 Web Exploitation Payloads](payloads-and-commands/web-exploitation.md)
-- [🔐 Active Directory Exploitation](payloads-and-commands/active-directory.md)
-- [⚙️ Linux Security & Hardening](payloads-and-commands/linux-and-hardening.md)
+### ⚡ Metodologies i Workflows d'Execució
+*Cadenes de comandes i receptes pràctiques per a operacions reals.*
+- [🚀 Power Workflows (Automation)](payloads-and-commands/workflows.md) — Automatisme de punta a punta (Recon -> Exploit).
+- [🎯 Web Exploitation Payloads](payloads-and-commands/web-exploitation.md) — Injeccions i salts de seguretat web.
+- [🔐 Active Directory Exploitation](payloads-and-commands/active-directory.md) — Rutes d'atac en entorns Windows/AD.
+- [⚙️ Linux Security & Hardening](payloads-and-commands/linux-and-hardening.md) — Receptes per assegurar sistemes Linux.
 
 ### 🛠️ Eines i Recursos per Categoria
 
-| Fase / Àmbit | Categoria | Descripció |
-| :--- | :--- | :--- |
-| **Fase 1: Recon** | [🌍 OSINT & Threat Intelligence](#-osint--threat-intelligence) | Reconeixement extern i intel·ligència d'amenaces. |
-| **Fase 2: Anàlisi** | [🔍 Code Analysis & SAST](#-code-analysis--sast) | Auditoria de codi font i anàlisi de superfície. |
-| **Fase 3: Atac** | [🛡️ Offensive Security](#️-offensive-security-pentesting--bug-bounty) | Pentesting, Bug Bounty i eines d'explotació activa. |
-| **Fase 4: Cloud** | [☁️ Cloud Security](#️-cloud-security) | Seguretat en entorns AWS, Azure i GCP. |
-| **Fase 5: OT** | [🏗️ Industrial Control Systems](#️-industrial-control-systems-icsot) | Seguretat en xarxes industrials i protocols crítics. |
-| **Fase 6: Defens** | [⚙️ Infrastructure & Hardening](#️-infrastructure-linux--hardening) | Post-explotació, seguretat Linux i tancament de sistemes. |
-| **Fase 7: DFIR** | [🕵️ Forensics & Network Analysis](#️-forensics--network-analysis) | Anàlisi forense digital i resposta a incidents. |
-| **Sovereignty** | [🛡️ Digital Sovereignty & Privacy](#️-digital-sovereignty-privacy--self-defense) | Autodefensa digital, privacitat i sobirania. |
-| **Intelligence** | [🤖 AI for Cybersecurity](#-ai-for-cybersecurity) | Agents d'IA i eines assistides per models de llenguatge. |
-| **Knowledge** | [📚 Knowledge Bases & Learning](#-knowledge-bases--learning) | Recursos d'aprenentatge i bases de dades de tècniques. |
-| **Frameworks** | [📚 Awesome Lists & Frameworks](#-awesome-lists--frameworks) | Col·leccions externes de recursos i llistes curades. |
+| Àmbit | Seccions Detallades |
+| :--- | :--- |
+| **🛡️ Seguretat Ofensiva** | [🌍 OSINT](#-osint--threat-intelligence) • [🔍 Code Analysis](#-code-analysis--sast) • [🛡️ Pentesting](#️-offensive-security-pentesting--bug-bounty) |
+| **🏗️ Infraestructura i Cloud** | [☁️ Cloud Security](#️-cloud-security) • [🏗️ ICS/OT (Industrial)](#️-industrial-control-systems-icsot) • [⚙️ Hardening](#️-infrastructure-linux--hardening) |
+| **🕵️ Post-Incident i DFIR** | [🕵️ Forensics & Network Analysis](#️-forensics--network-analysis) |
+| **🦾 Sobirania i IA** | [🛡️ Sovereignty & Privacy](#️-digital-sovereignty-privacy--self-defense) • [🤖 AI for Cybersecurity](#-ai-for-cybersecurity) |
+| **📚 Coneixement** | [📚 Knowledge Bases](#-knowledge-bases--learning) • [📚 Awesome Lists](#-awesome-lists--frameworks) |
 
 ---
 
