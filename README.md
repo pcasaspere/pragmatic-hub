@@ -18,7 +18,8 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **🛡️ Seguretat Ofensiva** | [🌍 OSINT](#-osint--threat-intelligence) • [🔍 Code Analysis](#-code-analysis--sast) • [🛡️ Pentesting](#️-offensive-security-pentesting--bug-bounty) |
 | **🏗️ Infraestructura i Cloud** | [☁️ Cloud Security](#️-cloud-security) • [🏗️ ICS/OT (Industrial)](#️-industrial-control-systems-icsot) • [⚙️ Hardening](#️-infrastructure-linux--hardening) |
 | **🕵️ Post-Incident i DFIR** | [🕵️ Forensics & Network Analysis](#️-forensics--network-analysis) |
-| **🦾 Sobirania i IA** | [🛡️ Sovereignty & Privacy](#️-digital-sovereignty-privacy--self-defense) • [🤖 AI for Cybersecurity](#-ai-for-cybersecurity) |
+| **🦾 Sobirania Digital** | [🛡️ Sovereignty & Privacy](#️-digital-sovereignty-privacy--self-defense) |
+| **🤖 Intel·ligència Artificial** | [🤖 AI for Cybersecurity](#-ai-for-cybersecurity) • [🤖 Agentic Frameworks](#-agentic-frameworks--mcp) |
 | **📚 Coneixement** | [📚 Knowledge Bases](#-knowledge-bases--learning) • [📚 Awesome Lists](#-awesome-lists--frameworks) |
 
 ---
@@ -113,8 +114,15 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | :--- | :--- |
 | **[PentestGPT](https://github.com/GreyD00r/PentestGPT)** | Agent d'IA per a pentesting. |
 | **[Strix](https://github.com/usestrix/strix)** | Seguretat ofensiva assistida per IA. |
-| **[AGENTS.md](https://agents.md/)** | Estàndard per guiar agents d'IA en repositoris. |
 | **[ClawSec](https://github.com/prompt-security/clawsec)** | Suite de seguretat per a OpenClaw (protecció de SOUL.md i auditories). |
+
+## 🤖 Agentic Frameworks & MCP
+| Recurs | Descripció |
+| :--- | :--- |
+| **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** | Protocol obert per a la interoperabilitat entre agents i eines (estàndard de facto). |
+| **[MCP Servers Directory](https://github.com/modelcontextprotocol/servers)** | Llistat oficial de servidors MCP per connectar agents a bases de dades, APIs i eines. |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | L'ecosistema d'agents on corre l'EscorBot. |
+| **[AGENTS.md](https://agents.md/)** | Estàndard per guiar agents d'IA en repositoris i workspaces. |
 
 ## 📚 Knowledge Bases & Learning
 | Recurs | Descripció |
