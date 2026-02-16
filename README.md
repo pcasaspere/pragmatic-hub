@@ -19,6 +19,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - [🕵️ Forensics & Network Analysis](#️-forensics--network-analysis)
 - [🌍 OSINT & Threat Intelligence](#-osint--threat-intelligence)
 - [📚 Knowledge Bases & Learning](#-knowledge-bases--learning)
+- [🛡️ Digital Sovereignty, Privacy & Self-Defense](#️-digital-sovereignty-privacy--self-defense)
 - [🤖 AI for Cybersecurity](#-ai-for-cybersecurity)
 
 ---
@@ -51,7 +52,6 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[Lynis](https://cisofy.com/lynis/)** | Auditoria de seguretat per a sistemes Unix/Linux. |
 | **[SSH Monitor](scripts/python/ssh_monitor.py)** | Script per monitoritzar accessos SSH. |
 | **[pspy](https://github.com/DominicBreuker/pspy)** | Monitorització de processos sense root. |
-| **[StevenBlack/hosts](https://github.com/StevenBlack/hosts)** | Llistes de hosts consolidades per a bloqueig de publicitat i malware (DNS Sinkhole). |
 | **[nmap](https://nmap.org/)** | Estàndard per a exploració de xarxa. |
 | **[BunkerWeb](https://github.com/bunkerity/bunkerweb)** | WAF de nova generació basat en NGINX, "secure by default". |
 | **[exiftool](https://exiftool.org/)** | Lectura i edició de metadades de fitxers. |
@@ -109,6 +109,13 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[Pentesting Notes](https://notes.incendium.rocks/pentesting-notes/)** | Notes de camp per a pentesting. |
 | **[ADMinions](https://adminions.ca/)** | Explotació d'Active Directory. |
 | **[The Hacker Recipes](https://www.thehacker.recipes/)** | Atacs contra AD i xarxes Windows. |
+
+## 🛡️ Digital Sovereignty, Privacy & Self-Defense
+| Recurs | Descripció |
+| :--- | :--- |
+| **[StevenBlack/hosts](https://github.com/StevenBlack/hosts)** | Llistes de hosts consolidades per a bloqueig de publicitat i malware a nivell de DNS. |
+| **[Keep Android Open](https://keepandroidopen.org/)** | Moviment de resistència contra el tancament de l'ecosistema Android i la pèrdua de control del hardware. |
+| **[Privacy Guides](https://www.privacyguides.org/)** | Guies i recomanacions per a l'ús de software i hardware que respecti la privacitat. |
 
 ## 🤖 AI for Cybersecurity
 | Recurs | Descripció |
