@@ -91,6 +91,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[DeHashed](https://www.dehashed.com/)** | Cercador de dades filtrades i credencials. |
 | **[urlscan.io](https://urlscan.io/)** | Anàlisi de comportament de llocs web. |
 | **[theHarvester](https://github.com/laramies/theHarvester)** | Recol·lecció de correus, hosts i ports. |
+| **[GrayhatWarfare](https://buckets.grayhatwarfare.com/)** | Cercador de fitxers en buckets S3 públics i exposats. |
 | **[sherlock](https://github.com/sherlock-project/sherlock)** | Busca comptes per nom d'usuari. |
 | **[dnstwist](https://github.com/elceef/dnstwist)** | Detecta typosquatting i phishing. |
 | **[recon-ng](https://github.com/lanmaster53/recon-ng)** | Framework de reconeixement web en Python. |
