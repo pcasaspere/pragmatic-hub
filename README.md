@@ -51,6 +51,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[Lynis](https://cisofy.com/lynis/)** | Auditoria de seguretat per a sistemes Unix/Linux. |
 | **[SSH Monitor](scripts/python/ssh_monitor.py)** | Script per monitoritzar accessos SSH. |
 | **[pspy](https://github.com/DominicBreuker/pspy)** | Monitorització de processos sense root. |
+| **[StevenBlack/hosts](https://github.com/StevenBlack/hosts)** | Llistes de hosts consolidades per a bloqueig de publicitat i malware (DNS Sinkhole). |
 | **[nmap](https://nmap.org/)** | Estàndard per a exploració de xarxa. |
 | **[BunkerWeb](https://github.com/bunkerity/bunkerweb)** | WAF de nova generació basat en NGINX, "secure by default". |
 | **[exiftool](https://exiftool.org/)** | Lectura i edició de metadades de fitxers. |
