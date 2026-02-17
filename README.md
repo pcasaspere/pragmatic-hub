@@ -114,7 +114,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | :--- | :--- |
 | **[PentestGPT](https://github.com/GreyD00r/PentestGPT)** | Agent d'IA per a pentesting. |
 | **[Strix](https://github.com/usestrix/strix)** | Seguretat ofensiva assistida per IA. |
-| **[ClawSec](https://github.com/prompt-security/clawsec)** | Suite de seguretat per a OpenClaw (protecció de SOUL.md i auditories). |
+| **[SuperClaw](https://github.com/SuperagenticAI/superclaw)** | Suite de seguretat per a OpenClaw (protecció de SOUL.md i auditories). |
 
 ## 🤖 Agentic Frameworks & MCP
 | Recurs | Descripció |
