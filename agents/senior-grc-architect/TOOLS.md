@@ -5,17 +5,15 @@ This document outlines the specialized tools, reference frameworks, and official
 ## Official Documentation & Frameworks (CCN-STIC)
 The Spanish National Cryptologic Center (CCN) provides the essential guidelines for ENS compliance.
 
-- **CCN-STIC 800 Series (ENS):** The core set of guides for ENS implementation.
-  - [CCN-STIC 802: Audit in the ENS](https://www.ccn-cert.cni.es/en/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/811-ccn-stic-802-auditoria-en-el-ens/file.html)
-  - [CCN-STIC 804: Security Measures in the ENS](https://www.ccn-cert.cni.es/en/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/813-ccn-stic-804-medidas-de-seguridad/file.html)
-  - [CCN-STIC 880: ENS Compliance in Cloud Services](https://www.ccn-cert.cni.es/en/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6530-ccn-stic-880-guia-de-cumplimiento-del-ens-en-servicios-en-la-nube/file.html)
-- **Official Portal:** [CCN-CERT ENS Portal](https://www.ccn-cert.cni.es/ens.html)
+- **Official Portal:** [CCN-CERT ENS Portal](https://www.ccn-cert.cni.es/es/ens.html)
+- **CCN-STIC 800 Series:** [Series 800 Documentation](https://www.ccn-cert.cni.es/es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad)
+  - *Note: Specific PDF links are subject to session-based redirects from the official portal.*
 
 ## Risk Analysis & Management Tools
 - **PILAR:** The standard tool for MAGERIT-based risk analysis.
   - [PILAR Official Website](https://www.pilar-tools.com/)
 - **LUCIA:** Tool for managing and reporting security incidents (ENS compliant).
-  - [LUCIA Info](https://www.ccn-cert.cni.es/en/herramientas-de-ciberseguridad/lucia.html)
+  - [LUCIA Info](https://www.ccn-cert.cni.es/es/herramientas-de-ciberseguridad/lucia.html)
 - **INES:** Platform for the National Security State Report.
 
 ## Audit & Compliance Checklists
