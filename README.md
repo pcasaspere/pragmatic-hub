@@ -113,7 +113,6 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 ## 🤖 AI for Cybersecurity
 | Recurs | Descripció |
 | :--- | :--- |
-| **[skills.sh](https://skills.sh/)** | Plataforma interactiva per aprendre i practicar habilitats tècniques amb IA. |
 | **[PentestGPT](https://github.com/GreyD00r/PentestGPT)** | Agent d'IA per a pentesting. |
 | **[Strix](https://github.com/usestrix/strix)** | Seguretat ofensiva assistida per IA. |
 | **[SuperClaw](https://github.com/SuperagenticAI/superclaw)** | Suite de seguretat per a OpenClaw (protecció de SOUL.md i auditories). |
@@ -123,6 +122,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 ## 🤖 Agentic Frameworks & MCP
 | Recurs | Descripció |
 | :--- | :--- |
+| **[skills.sh](https://skills.sh/)** | Ecosistema obert de skills per a agents d'IA. Directori per instal·lar capacitats reutilitzables en agents com Claude Code, Copilot, Cursor, etc. |
 | **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** | Protocol obert per a la interoperabilitat entre agents i eines (estàndard de facto). |
 | **[MCP Servers Directory](https://github.com/modelcontextprotocol/servers)** | Llistat oficial de servidors MCP per connectar agents a bases de dades, APIs i eines. |
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | L'ecosistema d'agents on corre BraserBot. |
