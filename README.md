@@ -142,3 +142,8 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | Recurs | Descripció |
 | :--- | :--- |
 | **[Awesome Lists](https://github.com/mthcht/awesome-lists)** | Una col·lecció massiva de llistes \"awesome\" centrades en ciberseguretat, eines i payloads. |
+
+## 🎨 Frontend & Design Resources
+| Recurs | Descripció |
+| :--- | :--- |
+| **[impeccable.style](https://impeccable.style/) | Eina de disseny i estils per a desenvolupament web. |
