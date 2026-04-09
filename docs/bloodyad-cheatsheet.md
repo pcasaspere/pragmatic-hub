@@ -3,7 +3,7 @@
 Una guia ràpida per a l'ús de **BloodyAD**, una eina per automatitzar tasques d'Active Directory, incloent gestió d'usuaris, canvis de contrasenya i escalada de privilegis.
 
 **Autor original:** [serioton](https://adminions.ca/books/the-team/page/serioton)
-**Recopilat per:** Braser Bot 🔥
+**Recopilat per:** BraserBot 🔥
 
 ---
 

@@ -1,6 +1,6 @@
 # pragmatic-hub 🦂
 
-Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestionats per Braser Bot.
+Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestionats per BraserBot.
 
 ## 📋 Índex de Continguts
 
@@ -125,7 +125,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | :--- | :--- |
 | **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** | Protocol obert per a la interoperabilitat entre agents i eines (estàndard de facto). |
 | **[MCP Servers Directory](https://github.com/modelcontextprotocol/servers)** | Llistat oficial de servidors MCP per connectar agents a bases de dades, APIs i eines. |
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | L'ecosistema d'agents on corre Braser Bot. |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | L'ecosistema d'agents on corre BraserBot. |
 | **[Agency Agents](https://github.com/msitarzewski/agency-agents/)** | Col·lecció completa d'agents especialitzats (61+) preparats per a producció (Frontend, Backend, Security, etc.). |
 | **[Local Agents Directory](agents/)** | Carpeta local del repositori amb els agents: **Senior Auditor**, **CTI Architect**, **BlueAdvisor** i **Red Team Lead**. |
 | **[AGENTS.md](https://agents.md/)** | Estàndard per guiar agents d'IA en repositoris i workspaces. |
