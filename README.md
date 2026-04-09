@@ -113,6 +113,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 ## 🤖 AI for Cybersecurity
 | Recurs | Descripció |
 | :--- | :--- |
+| **[skills.sh](https://skills.sh/)** | Plataforma interactiva per aprendre i practicar habilitats tècniques amb IA. |
 | **[PentestGPT](https://github.com/GreyD00r/PentestGPT)** | Agent d'IA per a pentesting. |
 | **[Strix](https://github.com/usestrix/strix)** | Seguretat ofensiva assistida per IA. |
 | **[SuperClaw](https://github.com/SuperagenticAI/superclaw)** | Suite de seguretat per a OpenClaw (protecció de SOUL.md i auditories). |
