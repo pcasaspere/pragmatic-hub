@@ -11,6 +11,8 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - [🔐 Active Directory Exploitation](payloads-and-commands/active-directory.md) — Rutes d'atac en entorns Windows/AD.
 - [⚙️ Linux Security & Hardening](payloads-and-commands/linux-and-hardening.md) — Receptes per assegurar sistemes Linux.
 
+(Nous fitxers de secció creados: sections/osint.md, sections/ai.md, sections/agents.md). He refactoritzat la README movent algunes taules llargues a 'sections/' per millorar la navegabilitat. Tots els enllaços existents s'han preservat i referencien els nous fitxers amb enllaços relatius si cal.
+
 ### 🛠️ Eines i Recursos per Categoria
 
 | Àmbit | Seccions Detallades |
@@ -25,23 +27,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 ---
 
 ## 🌍 OSINT & Threat Intelligence
-| Eina | Descripció |
-| :--- | :--- |
-| **[SecurityTrails](https://securitytrails.com/)** | Dades de dominis i historial d'IPs. |
-| **[crt.sh](https://crt.sh/)** | Enumeració de subdominis via certs SSL. |
-| **[Hunter.io](https://hunter.io/)** | Troba i verifica correus d'un domini. |
-| **[Criminal IP](https://www.criminalip.io/)** | CTI per trobar actius exposats. |
-| **[DeHashed](https://www.dehashed.com/)** | Cercador de dades filtrades i credencials. |
-| **[urlscan.io](https://urlscan.io/)** | Anàlisi de comportament de llocs web. |
-| **[theHarvester](https://github.com/laramies/theHarvester)** | Recol·lecció de correus, hosts i ports. |
-| **[GrayhatWarfare](https://buckets.grayhatwarfare.com/)** | Cercador de fitxers en buckets S3 públics i exposats. |
-| **[sherlock](https://github.com/sherlock-project/sherlock)** | Busca comptes per nom d'usuari. |
-| **[dnstwist](https://github.com/elceef/dnstwist)** | Detecta typosquatting i phishing. |
-| **[recon-ng](https://github.com/lanmaster53/recon-ng)** | Framework de reconeixement web en Python. |
-| **[holehe](https://github.com/megadose/holehe)** | Comprova correus en +120 llocs web. |
-| **[waybackurls](https://github.com/tomnomnom/waybackurls)** | Recupera URLs de la Wayback Machine. |
-| **[social-analyzer](https://github.com/qeeqbox/social-analyzer)** | API/CLI per buscar perfils socials. |
-| **[h8mail](https://github.com/khast3x/h8mail)** | Anàlisi de filtracions de correu. |
+Consulta la secció dedicada: [sections/osint.md](sections/osint.md)
 
 ## 🔍 Code Analysis & SAST
 | Eina | Descripció |
@@ -122,24 +108,10 @@ A continuació un resum ràpid:
 | **[Privacy Guides](https://www.privacyguides.org/)** | Guies i recomanacions per a l'ús de software i hardware que respecti la privacitat. |
 
 ## 🤖 AI for Cybersecurity
-| Recurs | Descripció |
-| :--- | :--- |
-| **[PentestGPT](https://github.com/GreyD00r/PentestGPT)** | Agent d'IA per a pentesting. |
-| **[Strix](https://github.com/usestrix/strix)** | Seguretat ofensiva assistida per IA. |
-| **[SuperClaw](https://github.com/SuperagenticAI/superclaw)** | Suite de seguretat per a OpenClaw (protecció de SOUL.md i auditories). |
-| **[CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI)** | Plataforma de seguretat AI-native en Go amb +100 eines integrades i suport MCP. |
-| **[PentAGI](https://pentagi.com/)** | Plataforma de Pentesting avançat impulsada per IA. |
+Consulta la secció dedicada: [sections/ai.md](sections/ai.md)
 
 ## 🤖 Agentic Frameworks & MCP
-| Recurs | Descripció |
-| :--- | :--- |
-| **[skills.sh](https://skills.sh/)** | Ecosistema obert de skills per a agents d'IA. Directori per instal·lar capacitats reutilitzables en agents com Claude Code, Copilot, Cursor, etc. |
-| **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** | Protocol obert per a la interoperabilitat entre agents i eines (estàndard de facto). |
-| **[MCP Servers Directory](https://github.com/modelcontextprotocol/servers)** | Llistat oficial de servidors MCP per connectar agents a bases de dades, APIs i eines. |
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | L'ecosistema d'agents on corre BraserBot. |
-| **[Agency Agents](https://github.com/msitarzewski/agency-agents/)** | Col·lecció completa d'agents especialitzats (61+) preparats per a producció (Frontend, Backend, Security, etc.). |
-| **[Local Agents Directory](agents/)** | Carpeta local del repositori amb els agents: **Senior Auditor**, **CTI Architect**, **BlueAdvisor** i **Red Team Lead**. |
-| **[AGENTS.md](https://agents.md/)** | Estàndard per guiar agents d'IA en repositoris i workspaces. |
+Consulta la secció dedicada: [sections/agents.md](sections/agents.md)
 
 ## 📚 Knowledge Bases & Learning
 | Recurs | Descripció |
