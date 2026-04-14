@@ -1,8 +1,6 @@
 ---
 title: "🛡️ Digital Sovereignty, Privacy & Self-Defense"
-aliases: ["🛡️ Digital Sovereignty, Privacy & Self-Defense", "digital-sovereignty-privacy-self-defense"]
 tags: [section]
-last_verified: ""
 ---
 
 ## 🛡️ Digital Sovereignty, Privacy & Self-Defense

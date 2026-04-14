@@ -1,8 +1,6 @@
 ---
 title: "⚙️ Infrastructure, Linux & Hardening"
-aliases: ["⚙️ Infrastructure, Linux & Hardening", "infrastructure-linux-hardening"]
 tags: [section]
-last_verified: ""
 ---
 
 ## ⚙️ Infrastructure, Linux & Hardening

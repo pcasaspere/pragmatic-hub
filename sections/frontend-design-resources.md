@@ -1,8 +1,6 @@
 ---
 title: "🎨 Frontend & Design Resources"
-aliases: ["🎨 Frontend & Design Resources", "frontend-design-resources"]
 tags: [section]
-last_verified: ""
 ---
 
 ## 🎨 Frontend & Design Resources

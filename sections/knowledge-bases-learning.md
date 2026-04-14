@@ -1,8 +1,6 @@
 ---
 title: "📚 Knowledge Bases & Learning"
-aliases: ["📚 Knowledge Bases & Learning", "knowledge-bases-learning"]
 tags: [section]
-last_verified: ""
 ---
 
 ## 📚 Knowledge Bases & Learning

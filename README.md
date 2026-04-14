@@ -4,6 +4,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 
 ## 📋 Índex ràpid
 
+- [Active Directory Exploitation](payloads-and-commands/active-directory.md) 📄
 - [Agentic Frameworks & MCP](sections/agentic-frameworks-mcp.md) 🧭
 - [Agents](agents/) 👥
 - [AI for Cybersecurity](sections/ai-for-cybersecurity.md) 🤖
@@ -13,12 +14,14 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - [Digital Sovereignty, Privacy & Self-Defense](sections/digital-sovereignty-privacy-self-defense.md) 🛡️
 - [Forensics & Network Analysis](sections/forensics-network-analysis.md) 🕵️
 - [Frontend & Design Resources](sections/frontend-design-resources.md) 🎨
-- [ICS/OT](sections/industrial-control-systems-ics-ot.md) 🏗️
-- [Incidents](incidents/README.md) 🚨
-- [Infrastructure & Hardening](sections/infrastructure-linux-hardening.md) 🛠️
+- [Industrial Control Systems (ICSOT)](sections/industrial-control-systems-icsot.md) 📄
+- [Industrial Incident Reports](incidents/README.md) 📰
+- [Infrastructure, Linux & Hardening](sections/infrastructure-linux-hardening.md) 🛠️
 - [Knowledge Bases & Learning](sections/knowledge-bases-learning.md) 📚
+- [Linux Security & Hardening](payloads-and-commands/linux-and-hardening.md) 📄
 - [Metodologies i Workflows](payloads-and-commands/workflows.md) ⚡
-- [Offensive Security](sections/offensive-security-pentesting-bug-bounty.md) 🛡️
-- [OSINT](sections/osint-threat-intelligence.md) 🌍
+- [Offensive Security (Pentesting & Bug Bounty)](sections/offensive-security-pentesting-bug-bounty.md) 🛡️
+- [OSINT & Threat Intelligence](sections/osint-threat-intelligence.md) 🌍
 - [Payloads & Commands](payloads-and-commands/) 💥
 - [Scripts](scripts/) 🧰
+- [Web Exploitation Payloads](payloads-and-commands/web-exploitation.md) 📄

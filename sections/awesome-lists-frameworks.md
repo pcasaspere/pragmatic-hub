@@ -1,8 +1,6 @@
 ---
 title: "📚 Awesome Lists & Frameworks"
-aliases: ["📚 Awesome Lists & Frameworks", "awesome-lists-frameworks"]
 tags: [section]
-last_verified: ""
 ---
 
 ## 📚 Awesome Lists & Frameworks

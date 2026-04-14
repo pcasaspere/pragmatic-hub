@@ -1,8 +1,6 @@
 ---
 title: "🔍 Code Analysis & SAST"
-aliases: ["🔍 Code Analysis & SAST", "code-analysis-sast"]
 tags: [section]
-last_verified: ""
 ---
 
 ## 🔍 Code Analysis & SAST

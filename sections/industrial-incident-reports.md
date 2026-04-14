@@ -1,8 +1,6 @@
 ---
 title: "📰 Industrial Incident Reports"
-aliases: ["📰 Industrial Incident Reports", "industrial-incident-reports"]
 tags: [section]
-last_verified: ""
 ---
 
 ## 📰 Industrial Incident Reports

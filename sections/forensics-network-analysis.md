@@ -1,8 +1,6 @@
 ---
 title: "🕵️ Forensics & Network Analysis"
-aliases: ["🕵️ Forensics & Network Analysis", "forensics-network-analysis"]
 tags: [section]
-last_verified: ""
 ---
 
 ## 🕵️ Forensics & Network Analysis

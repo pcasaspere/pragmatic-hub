@@ -1,8 +1,6 @@
 ---
 title: "☁️ Cloud Security"
-aliases: ["☁️ Cloud Security", "cloud-security"]
 tags: [section]
-last_verified: ""
 ---
 
 ## ☁️ Cloud Security

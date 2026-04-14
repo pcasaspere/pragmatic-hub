@@ -1,8 +1,6 @@
 ---
 title: "🏗️ Industrial Control Systems (ICS/OT)"
-aliases: ["🏗️ Industrial Control Systems (ICS/OT)", "industrial-control-systems-ics-ot"]
 tags: [section]
-last_verified: ""
 ---
 
 ## 🏗️ Industrial Control Systems (ICS/OT)
