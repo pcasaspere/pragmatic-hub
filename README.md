@@ -1,4 +1,4 @@
-# pragmatic-hub 🦂
+# pragmatic-hub
 
 Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestionats per BraserBot.
 
@@ -74,12 +74,19 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 | **[cloud_enum](https://github.com/initstring/cloud_enum)** | Enumeració de recursos públics en cloud. |
 
 ## 🏗️ Industrial Control Systems (ICS/OT)
-| Eina | Descripció |
-| :--- | :--- |
-| **[Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols)** | Recull de protocols industrials i eines d'anàlisi. |
-| **[Awesome ICS Security](https://github.com/hslatman/awesome-industrial-control-system-security)** | Recursos de seguretat en sistemes de control industrial. |
-| **[Grassmarlin](https://github.com/nsacyber/grassmarlin)** | Descoberta de xarxes industrials (NSA). |
-| **[S7Scan](https://github.com/moki-ics/s7scan)** | Escàner per a dispositius Siemens S7. |
+|| Eina | Descripció |
+|| :--- | :--- |
+|| **[Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols)** | Recull de protocols industrials i eines d'anàlisi. |
+|| **[Awesome ICS Security](https://github.com/hslatman/awesome-industrial-control-system-security)** | Recursos de seguretat en sistemes de control industrial. |
+|| **[Grassmarlin](https://github.com/nsacyber/grassmarlin)** | Descoberta de xarxes industrials (NSA). |
+|| **[S7Scan](https://github.com/moki-ics/s7scan)** | Escàner per a dispositius Siemens S7. |
+
+## 📰 Industrial Incident Reports
+|| Incidència | Any | Resum | Fonts |
+|| :--- | :---: | :--- | :--- |
+|| **[Colonial Pipeline ransomware attack](https://www.energy.gov/ceser/colonial-pipeline-cyber-incident)** | 2021 | Atac de ransomware (DarkSide) que va forçar el tall de l'operació del oleoducte i va interrompre subministres. L'incident destaca la necessitat de MFA per a VPNs, segmentació clara IT/OT, i plans de resposta/coordinació amb agències. | [DOE](https://www.energy.gov/ceser/colonial-pipeline-cyber-incident), [CISA overview](https://www.cisa.gov/news-events/news/attack-colonial-pipeline-what-weve-learned-what-weve-done-over-past-two-years), [CISA advisory aa21-131a](https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-131a) |
+|| **[Ukraine power grid attack (BlackEnergy / Sandworm)](https://en.wikipedia.org/wiki/2015_Ukraine_power_grid_hack)** | 2015 | Campanya dirigida que va utilitzar spear-phishing per desplegar BlackEnergy i KillDisk, corrompent dispositius i desconnectant subestacions per provocar apagades locals. Ressalta la importància de la detecció precoç, segregació de xarxes, i controls remots robustos. | [E-ISAC / SANS analysis (PDF)](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2016/05/20081514/E-ISAC_SANS_Ukraine_DUC_5.pdf), [CISA ICS alert](https://www.cisa.gov/news-events/ics-alerts/ir-alert-h-16-056-01), [MITRE ATT&CK campaign](https://attack.mitre.org/campaigns/C0028/) |
+
 
 ## ⚙️ Infrastructure, Linux & Hardening
 | Eina | Descripció |
