@@ -1,0 +1,114 @@
+# Verification report: README -> repo links
+
+Links found in previous README: 74
+Links found in current repo (.md): 44
+
+## Missing links (present in old README but NOT found in current repo)
+- #-agentic-frameworks--mcp — status: local
+- #-ai-for-cybersecurity — status: local
+- #-awesome-lists--frameworks — status: local
+- #-code-analysis--sast — status: local
+- #-knowledge-bases--learning — status: local
+- #-osint--threat-intelligence — status: local
+- #️-cloud-security — status: local
+- #️-digital-sovereignty-privacy--self-defense — status: local
+- #️-forensics--network-analysis — status: local
+- #️-industrial-control-systems-icsot — status: local
+- #️-infrastructure-linux--hardening — status: local
+- #️-offensive-security-pentesting--bug-bounty — status: local
+- https://adminions.ca/ — status: 200
+- https://attack.mitre.org/campaigns/C0028/ — status: 200
+- https://bandit.readthedocs.io/en/latest/ — status: 200
+- https://brakemanscanner.org/ — status: 200
+- https://cisofy.com/lynis/ — status: 200
+- https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/index — status: 200
+- https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/installing-sonarqube-from-docker/ — status: 200
+- https://exiftool.org/ — status: 200
+- https://exploit-notes.hdks.org/ — status: ERROR
+- https://github.com/BishopFox/cloudfox — status: 200
+- https://github.com/BishopFox/sliver — status: 200
+- https://github.com/DominicBreuker/pspy — status: 200
+- https://github.com/JPCERTCC/LogonTracer — status: 200
+- https://github.com/KingOfBugbounty/enumrust — status: 200
+- https://github.com/Orange-Cyberdefense/awesome-industrial-protocols — status: 200
+- https://github.com/RhinoSecurityLabs/pacu — status: 200
+- https://github.com/StevenBlack/hosts — status: 200
+- https://github.com/aquasecurity/trivy — status: 200
+- https://github.com/bunkerity/bunkerweb — status: 200
+- https://github.com/cyb3rfox/Aurora-Incident-Response — status: 200
+- https://github.com/drwetter/testssl.sh — status: 200
+- https://github.com/dstotijn/hetty — status: 200
+- https://github.com/ffuf/ffuf — status: 200
+- https://github.com/hslatman/awesome-industrial-control-system-security — status: 200
+- https://github.com/initstring/cloud_enum — status: 200
+- https://github.com/mesquidar/ForensicsTools — status: 200
+- https://github.com/moki-ics/s7scan — status: 404
+- https://github.com/mthcht/awesome-lists — status: 200
+- https://github.com/nsacyber/grassmarlin — status: 200
+- https://github.com/projectdiscovery/katana — status: 200
+- https://github.com/projectdiscovery/nuclei — status: 200
+- https://github.com/projectdiscovery/subfinder — status: 200
+- https://github.com/trufflesecurity/trufflehog — status: 200
+- https://impeccable.style/ — status: 200
+- https://keepandroidopen.org/ — status: 200
+- https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2016/05/20081514/E-ISAC_SANS_Ukraine_DUC_5.pdf — status: 200
+- https://nmap.org/ — status: 200
+- https://notes.incendium.rocks/pentesting-notes/ — status: 200
+- https://oisd.nl/ — status: 200
+- https://viperone.gitbook.io/pentest-everything — status: 200
+- https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-131a — status: 403
+- https://www.cisa.gov/news-events/ics-alerts/ir-alert-h-16-056-01 — status: 403
+- https://www.cisa.gov/news-events/news/attack-colonial-pipeline-what-weve-learned-what-weve-done-over-past-two-years — status: 403
+- https://www.energy.gov/ceser/colonial-pipeline-cyber-incident — status: 200
+- https://www.netresec.com/?page=Networkminer — status: 200
+- https://www.privacyguides.org/ — status: 200
+- https://www.thehacker.recipes/ — status: ERROR
+- incidents/colonial-pipeline.md — status: local
+- incidents/ukraine-2015.md — status: local
+- payloads-and-commands/active-directory.md — status: local
+- payloads-and-commands/linux-and-hardening.md — status: local
+- payloads-and-commands/web-exploitation.md — status: local
+- scripts/python/ssh_monitor.py — status: local
+
+## Extra links (present in current repo but not in old README)
+- agents/ — found in: ['/home/bot/pragmatic-hub/README.md', '/home/bot/pragmatic-hub/sections/agents.md']
+- https://agents.md/ — found in: ['/home/bot/pragmatic-hub/sections/agents.md']
+- https://buckets.grayhatwarfare.com/ — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://crt.sh/ — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://github.com/Ed1s0nZ/CyberStrikeAI — found in: ['/home/bot/pragmatic-hub/sections/ai.md']
+- https://github.com/GreyD00r/PentestGPT — found in: ['/home/bot/pragmatic-hub/README.md', '/home/bot/pragmatic-hub/sections/ai.md']
+- https://github.com/SuperagenticAI/superclaw — found in: ['/home/bot/pragmatic-hub/sections/ai.md']
+- https://github.com/elceef/dnstwist — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://github.com/khast3x/h8mail — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://github.com/lanmaster53/recon-ng — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://github.com/laramies/theHarvester — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://github.com/megadose/holehe — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://github.com/modelcontextprotocol/servers — found in: ['/home/bot/pragmatic-hub/sections/agents.md']
+- https://github.com/msitarzewski/agency-agents/ — found in: ['/home/bot/pragmatic-hub/sections/agents.md']
+- https://github.com/openclaw/openclaw — found in: ['/home/bot/pragmatic-hub/sections/agents.md']
+- https://github.com/qeeqbox/social-analyzer — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://github.com/sherlock-project/sherlock — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://github.com/tomnomnom/waybackurls — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://github.com/usestrix/strix — found in: ['/home/bot/pragmatic-hub/sections/ai.md']
+- https://hunter.io/ — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://modelcontextprotocol.io/ — found in: ['/home/bot/pragmatic-hub/sections/agents.md']
+- https://pentagi.com/ — found in: ['/home/bot/pragmatic-hub/sections/ai.md']
+- https://securitytrails.com/ — found in: ['/home/bot/pragmatic-hub/README.md', '/home/bot/pragmatic-hub/sections/osint.md']
+- https://skills.sh/ — found in: ['/home/bot/pragmatic-hub/README.md', '/home/bot/pragmatic-hub/sections/agents.md']
+- https://urlscan.io/ — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://www.criminalip.io/ — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- https://www.dehashed.com/ — found in: ['/home/bot/pragmatic-hub/sections/osint.md']
+- payloads-and-commands/ — found in: ['/home/bot/pragmatic-hub/README.md']
+- scripts/ — found in: ['/home/bot/pragmatic-hub/README.md']
+- sections/cloud.md — found in: ['/home/bot/pragmatic-hub/README.md']
+- sections/code-analysis.md — found in: ['/home/bot/pragmatic-hub/README.md']
+- sections/forensics.md — found in: ['/home/bot/pragmatic-hub/README.md']
+- sections/ics-ot.md — found in: ['/home/bot/pragmatic-hub/README.md']
+- sections/infrastructure.md — found in: ['/home/bot/pragmatic-hub/README.md']
+- sections/offensive-security.md — found in: ['/home/bot/pragmatic-hub/README.md']
+
+## Duplicate links across files (current repo)
+- https://securitytrails.com/ — 2 occurrences (files: ['/home/bot/pragmatic-hub/README.md', '/home/bot/pragmatic-hub/sections/osint.md'])
+- https://github.com/GreyD00r/PentestGPT — 2 occurrences (files: ['/home/bot/pragmatic-hub/README.md', '/home/bot/pragmatic-hub/sections/ai.md'])
+- https://skills.sh/ — 2 occurrences (files: ['/home/bot/pragmatic-hub/README.md', '/home/bot/pragmatic-hub/sections/agents.md'])
+- agents/ — 2 occurrences (files: ['/home/bot/pragmatic-hub/README.md', '/home/bot/pragmatic-hub/sections/agents.md'])
