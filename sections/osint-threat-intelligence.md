@@ -20,4 +20,5 @@ tags: [section]
 | **[holehe](https://github.com/megadose/holehe)** | Comprova correus en +120 llocs web. |
 | **[waybackurls](https://github.com/tomnomnom/waybackurls)** | Recupera URLs de la Wayback Machine. |
 | **[social-analyzer](https://github.com/qeeqbox/social-analyzer)** | API/CLI per buscar perfils socials. |
-| **[h8mail](https://github.com/khast3x/h8mail)** | Anàlisi de filtracions de correu. |
+|| **[h8mail](https://github.com/khast3x/h8mail)** | Anàlisi de filtracions de correu. |
+|| **[Digger Tools](https://digger.tools/)** | Eina web per intel·ligència de dominis i recerca d'arxius exposats (Domain Digger). Consolida consultes DNS/WHOIS/Wayback i cerca de buckets en una sola interfície. |
