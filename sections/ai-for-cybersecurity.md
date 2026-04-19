@@ -21,4 +21,5 @@ tags: [section]
 ||| **[Shannon](https://github.com/KeygraphHQ/shannon)** | Pentester blanc-caixa autònom per aplicacions web i APIs; analitza codi font i valida exploits. |
 ||| **[BlacksmithAI](https://github.com/yohannesgk/blacksmith)** | Marc multi-agent open-source per automatitzar tota la cadena de pentesting. |
 ||| **[PentestAgent](https://github.com/GH05TCREW/pentestagent)** | Agent orientat a proves black-box amb playbooks preconstruïts per bug bounty i red teaming. |
-||| **[Pentest Copilot](https://github.com/bugbasesecurity/pentest-copilot)** | Assistència AI basada en navegador per agilitzar workflows de pentesting i generar informes. |
+|||| **[Pentest Copilot](https://github.com/bugbasesecurity/pentest-copilot)** | Assistència AI basada en navegador per agilitzar workflows de pentesting i generar informes. |
+|||| **[Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** | Recull de skills i exemples orientats a l'ús d'Anthropic per a tasques de ciberseguretat; útil per comprendre integracions i fluxos d'automatització amb models d'Anthropic. |
