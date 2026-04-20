@@ -75,9 +75,4 @@ Resum dels agents locals més destacats:
 
 ---
 
-Notes i recomanacions:
-- He mantingut els fitxers originals (sections/agentic-frameworks-mcp.md i sections/ai-for-cybersecurity.md) per preservar l'històric. Aquest nou fitxer actua com a consolidació i index.
-- Si vols que elimini els fitxers originals o els substitueixi per enllaços cap a aquest, ho faig sense problema.
-- Vols que reordeni la llista (per categoria: orquestració, agents, simulació, testing, etc.) o que extregui pàgines de recurs individuals a resources/?
 
-Si estàs d'acord, actualitzo el README per apuntar a aquest nou fitxer i treure les 3 entrades originals.
