@@ -5,9 +5,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 ## 📋 Índex ràpid
 
 - [Active Directory Exploitation](payloads-and-commands/active-directory.md) 🔐
-- [Agentic Frameworks & MCP](sections/agentic-frameworks-mcp.md) 🧭
-- [Agents](agents/) 👥
-- [AI for Cybersecurity](sections/ai-for-cybersecurity.md) 🤖
+- [AI i Agents](sections/ai.md) 🤖
 - [Awesome Lists & Frameworks](sections/awesome-lists-frameworks.md) 📚
 - [Cloud Security](sections/cloud-security.md) ☁️
 - [Code Analysis & SAST](sections/code-analysis-sast.md) 🔍
