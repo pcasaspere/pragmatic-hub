@@ -10,5 +10,6 @@ tags: [section]
 | **[Bandit](https://bandit.readthedocs.io/en/latest/)** | Troba problemes de seguretat en codi Python. |
 | **[SonarQube](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/installing-sonarqube-from-docker/)** | Inspecció contínua de qualitat i seguretat. |
 | **[Brakeman](https://brakemanscanner.org/)** | Escàner de vulnerabilitats per a Ruby on Rails. |
-| **[Trivy](https://github.com/aquasecurity/trivy)** | Escàner per a contenidors i artefactes. |
-| **[trufflehog](https://github.com/trufflesecurity/trufflehog)** | Busca secrets i claus filtrades en repos. |
+|| **[Trivy](https://github.com/aquasecurity/trivy)** | Escàner per a contenidors i artefactes. |
+|| **[OSV Scanner](https://github.com/google/osv-scanner)** | Escàner per buscar vulnerabilitats publicades (OSV) en dependències i artefactes. |
+|| **[trufflehog](https://github.com/trufflesecurity/trufflehog)** | Busca secrets i claus filtrades en repos. |
