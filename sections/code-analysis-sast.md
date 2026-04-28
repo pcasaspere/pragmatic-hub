@@ -13,4 +13,5 @@ tags: [section]
 | **[Trivy](https://github.com/aquasecurity/trivy)** | Escàner per a contenidors i artefactes. |
 | **[OSV Scanner](https://github.com/google/osv-scanner)** | Escàner per buscar vulnerabilitats publicades (OSV) en dependències i artefactes. |
 | **[Syft](https://github.com/anchore/syft)** | Generador de SBOM (Software Bill of Materials) per a containers, Python, JavaScript i molts ecosistemes. Format CycloneDX i SPDX. |
+| **[Dependency-Track](https://dependencytrack.org/)** | Plataforma de seguiment i anàlisi contínua de SBOMs. Gestiona vulnerabilitats, llicències i integritat de components. |
 | **[trufflehog](https://github.com/trufflesecurity/trufflehog)**
