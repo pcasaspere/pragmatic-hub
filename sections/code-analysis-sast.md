@@ -12,4 +12,5 @@ tags: [section]
 | **[Brakeman](https://brakemanscanner.org/)** | Escàner de vulnerabilitats per a Ruby on Rails. |
 || **[Trivy](https://github.com/aquasecurity/trivy)** | Escàner per a contenidors i artefactes. |
 || **[OSV Scanner](https://github.com/google/osv-scanner)** | Escàner per buscar vulnerabilitats publicades (OSV) en dependències i artefactes. |
-|| **[trufflehog](https://github.com/trufflesecurity/trufflehog)** | Busca secrets i claus filtrades en repos. |
+|| **[Syft](https://github.com/anchore/syft)** | Generador de SBOM (Software Bill of Materials) per a containers, Python, JavaScript i molts ecosistemes. Format CycloneDX i SPDX. |
+|| **[trufflehog](https://github.com/trufflesecurity/trufflehog)**
