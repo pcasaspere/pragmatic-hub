@@ -70,6 +70,7 @@ Resum dels agents locals més destacats:
 | **[Shannon](https://github.com/KeygraphHQ/shannon)** | Pentester blanc-caixa autònom per aplicacions web i APIs. |
 | **[BlacksmithAI](https://github.com/yohannesgk/blacksmith)** | Marc multi-agent open-source per automatitzar fluxos de pentesting. |
 | **[PentestAgent](https://github.com/GH05TCREW/pentestagent)** | Agent orientat a proves black-box amb playbooks preconstruïts. |
+| **[AIDA](https://github.com/Vasco0x4/AIDA)** | Agent autònom de pentesting que converteix qualsevol LLM en pentester. Executa nmap, sqlmap, nuclei, ffuf i scripts Python en contenidor Docker aïllat, amb notebook persistent i suport MCP. Ja ha produït CVEs reals. |
 | **[Pentest Copilot](https://github.com/bugbasesecurity/pentest-copilot)** | Assistència AI basada en navegador per agilitzar workflows de pentesting i generar informes. |
 | **[Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** | Recull de skills i exemples orientats a l'ús d'Anthropic per a tasques de ciberseguretat. |
 
