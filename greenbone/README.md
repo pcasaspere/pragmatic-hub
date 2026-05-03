@@ -106,7 +106,7 @@ sudo rm -rf /var/lib/openvas/
 ### Seqüència de re-instal·lació
 
 ```bash
-sudo apt update && sudo apt install gvm -y
+sudo apt update && sudo apt reinstall gvm -y
 sudo gvm-setup
 ```
 
