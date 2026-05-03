@@ -11,6 +11,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - [Code Analysis & SAST](sections/code-analysis-sast.md) 🔍
 - [Digital Sovereignty, Privacy & Self-Defense](sections/digital-sovereignty-privacy-self-defense.md) 🛡️
 - [Forensics & Network Analysis](sections/forensics-network-analysis.md) 🕵️
+- [Greenbone (Anàlisi de Vulnerabilitats)](greenbone/README.md) 🟢
 - [Network Analysis & IDS](sections/network-analysis-ids.md) 🌐
 - [Frontend & Design Resources](sections/frontend-design-resources.md) 🎨
 - [Industrial Control Systems (ICS/OT)](sections/industrial-control-systems-icsot.md) 🏗️
