@@ -9,7 +9,6 @@ Aquest fitxer consolida la informació de tres seccions prèvies del repositori:
 
 Resum ràpid:
 - Agentic Frameworks & MCP: estàndards, protocols i frameworks que permeten crear, executar i integrar agents d'IA (per ex. MCP — Model Context Protocol), i ecosistemes de "skills" o connectors reutilitzables.
-- Agents: implementacions concretes (persones/agents) o conjunts d'agents preparats per a tasques (ex. Senior Auditor, Red Team Lead). Són els "personatges" o eines que utilitzen els frameworks.
 - AI for Cybersecurity: projectes, biblioteques i eines que apliquen IA per a tasques de seguretat (agents de pentest, simuladors, frameworks d'entrenament, etc.).
 
 ---
@@ -17,7 +16,6 @@ Resum ràpid:
 ## Organització del contingut
 
 1) Agentic Frameworks & MCP — Protocols i frameworks
-2) Agents (carpeta agents/) — Agents locals i exemples
 3) AI for Cybersecurity — Projectes i eines rellevants
 
 ---
@@ -32,22 +30,6 @@ Resum ràpid:
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | Ecosistema d'agents i eines on pot córrer BraserBot / agents similars. |
 | **[Agency Agents](https://github.com/msitarzewski/agency-agents/)** | Col·lecció d'agents especialitzats (diversos rols) preparada per a producció. |
 | **[AGENTS.md](https://agents.md/)** | Guia / estàndard per construir i guiar agents d'IA en repositoris i workspaces. |
-
----
-
-## 2) Agents (carpeta local)
-
-El directori agents/ del repo conté exemples d'agents i les seves identitats/configuracions. Enllaç per consultar-ho directament:
-
-- [agents/](../agents/)
-
-Resum dels agents locals més destacats:
-- Senior Auditor — Agent orientat a audits i revisió de controls.
-- CTI Architect — Agent enfocat en Intel·ligència de Amenaces.
-- BlueAdvisor — Agent per a defenses i regles de detecció.
-- Red Team Lead — Agent per a coordinació de proves ofensives.
-
-(Pots obrir cada subcarpeta a agents/ per veure IDENTITIES i exemples.)
 
 ---
 
