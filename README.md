@@ -9,6 +9,7 @@ Recull d'eines, recursos i coneixement tècnic seleccionats per en Pere i gestio
 - [Awesome Lists & Frameworks](sections/awesome-lists-frameworks.md) 📚
 - [Cloud Security](sections/cloud-security.md) ☁️
 - [Code Analysis & SAST](sections/code-analysis-sast.md) 🔍
+- [Cyber RSS Feeds](sections/cyber-rss.md) 📡
 - [Digital Sovereignty, Privacy & Self-Defense](sections/digital-sovereignty-privacy-self-defense.md) 🛡️
 - [Forensics & Network Analysis](sections/forensics-network-analysis.md) 🕵️
 - [Greenbone (Anàlisi de Vulnerabilitats)](greenbone/README.md) 🟢

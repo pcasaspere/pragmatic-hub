@@ -1,0 +1,73 @@
+---
+title: "📡 Cyber RSS Feeds"
+tags: [section]
+---
+
+## 📡 Cyber RSS Feeds
+
+### cert (11)
+- [ASD ACSC Alerts (Australia)](https://www.cyber.gov.au/rss/alerts)
+- [CERT-FR (ANSSI)](https://www.cert.ssi.gouv.fr/feed/)
+- [CISA Cybersecurity Advisories](https://www.cisa.gov/cybersecurity-advisories/all.xml)
+- [CISA ICS Advisories](https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml)
+- [CISA ICS Medical Advisories](https://www.cisa.gov/cybersecurity-advisories/ics-medical-advisories.xml)
+- [JPCERT/CC](https://www.jpcert.or.jp/english/rss/jpcert-en.rdf)
+- [JPCERT/CC Blog](https://blogs.jpcert.or.jp/en/atom.xml)
+- [UK NCSC All RSS Feed](https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml)
+- [UK NCSC Guidance](https://www.ncsc.gov.uk/api/1/services/v1/guidance-rss-feed.xml)
+- [UK NCSC News](https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml)
+- [UK NCSC Reports](https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml)
+
+### news (11)
+- [Bleeping Computer (forum)](https://www.bleepingcomputer.com/forum45.xml)
+- [BleepingComputer](https://www.bleepingcomputer.com/feed/)
+- [CyberScoop](https://www.cyberscoop.com/feed)
+- [Dark Reading](https://www.darkreading.com/rss.xml)
+- [Intelligence Online](https://feeds.feedburner.com/IntelligenceOnline)
+- [Krebs on Security](https://krebsonsecurity.com/feed/)
+- [Risky Business Podcast](https://risky.biz/rss.xml)
+- [Schneier on Security](https://www.schneier.com/feed/atom/)
+- [SecurityWeek](https://feeds.feedburner.com/securityweek)
+- [The Hacker News](https://feeds.feedburner.com/TheHackersNews)
+- [The Record](https://therecord.media/feed/)
+
+### vulnerability (5)
+- [CVEfeed.io RSS](https://cvefeed.io/rssfeed/latest.xml)
+- [FortiGuard PSIRT Feed](https://www.fortiguard.com/rss/ir.xml)
+- [Microsoft Security Update Guide](https://api.msrc.microsoft.com/update-guide/rss)
+- [Palo Alto Security Advisories](https://security.paloaltonetworks.com/rss.xml)
+- [Qualys Blog](https://blog.qualys.com/feed)
+
+### vendor_advisory (3)
+- [Apple Developer Releases](https://developer.apple.com/news/releases/rss/releases.rss)
+- [Apple Newsroom](https://www.apple.com/newsroom/rss-feed.rss)
+- [Cisco Security Blog](https://blogs.cisco.com/security/feed)
+
+### vendor_blog (9)
+- [Check Point Research](https://research.checkpoint.com/feed/)
+- [Cisco Talos Intelligence](https://feeds.feedburner.com/feedburner/Talos)
+- [Elastic Security Labs](https://www.elastic.co/security-labs/rss/feed.xml)
+- [Fortinet Threat Research](https://feeds.fortinet.com/fortinet/blog/psirt)
+- [Mandiant Blog](https://www.mandiant.com/resources/blog/rss.xml)
+- [Proofpoint Threat Insight](https://www.proofpoint.com/us/threat-insight-blog.xml)
+- [Rapid7 Blog](https://blog.rapid7.com/rss/)
+- [Rapid7 Emergent Threats](https://blog.rapid7.com/tag/emergent-threat-response/rss/)
+- [SentinelOne / SentinelLabs](https://www.sentinelone.com/feed/)
+
+### malware_research (6)
+- [Google Online Security Blog](https://feeds.feedburner.com/GoogleOnlineSecurityBlog)
+- [Google Project Zero](https://googleprojectzero.blogspot.com/feeds/posts/default?alt=rss)
+- [Google TAG](https://blog.google/threat-analysis-group/rss/)
+- [Malwarebytes Labs](https://blog.malwarebytes.com/feed/)
+- [Securelist (Kaspersky)](https://securelist.com/feed/)
+- [WeLiveSecurity (ESET)](https://www.welivesecurity.com/en/rss/feed/)
+
+### exploit_research (4)
+- [Exploit-DB](https://www.exploit-db.com/rss.xml)
+- [ZDI Published Advisories](https://www.zerodayinitiative.com/rss/published/)
+- [ZDI Upcoming Advisories](https://www.zerodayinitiative.com/rss/upcoming/)
+- [Zero Day Initiative Blog](https://www.zerodayinitiative.com/blog?format=rss)
+
+### community (2)
+- [SANS ISC Diary](https://isc.sans.edu/rssfeed.xml)
+- [SANS ISC Diary (Full)](https://isc.sans.edu/rssfeed_full.xml)
