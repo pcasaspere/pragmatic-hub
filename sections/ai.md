@@ -30,6 +30,7 @@ Resum ràpid:
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | Ecosistema d'agents i eines on pot córrer BraserBot / agents similars. |
 | **[Agency Agents](https://github.com/msitarzewski/agency-agents/)** | Col·lecció d'agents especialitzats (diversos rols) preparada per a producció. |
 | **[AGENTS.md](https://agents.md/)** | Guia / estàndard per construir i guiar agents d'IA en repositoris i workspaces. |
+| **[Codegraph](https://github.com/colbymchenry/codegraph)** | Graf de coneixement de codi pre-indexat per a agents de codificació (Claude Code, Codex, Cursor, OpenCode, Hermes Agent). Menys tokens, menys tool calls, 100% local. |
 
 ---
 
