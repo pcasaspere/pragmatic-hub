@@ -17,6 +17,7 @@ Anàlisi estàtica de codi font per detectar vulnerabilitats abans d'executar-lo
 | **[SonarQube](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/installing-sonarqube-from-docker/)** | Inspecció contínua de qualitat i seguretat del codi. |
 | **[Bandit](https://bandit.readthedocs.io/en/latest/)** | Troba problemes de seguretat en codi Python. |
 | **[Brakeman](https://brakemanscanner.org/)** | Escàner de vulnerabilitats per a Ruby on Rails. |
+| **[NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector)** | Anàlisi estàtica de seguretat per a skills d'agents d'IA: 64 patrons de vulnerabilitat, 16 categories (prompt injection, AST, taint tracking, YARA, supply chain...). | 
 
 ### 🔑 Secret Detection
 

@@ -31,6 +31,7 @@ Resum ràpid:
 | **[Agency Agents](https://github.com/msitarzewski/agency-agents/)** | Col·lecció d'agents especialitzats (diversos rols) preparada per a producció. |
 | **[AGENTS.md](https://agents.md/)** | Guia / estàndard per construir i guiar agents d'IA en repositoris i workspaces. |
 | **[Codegraph](https://github.com/colbymchenry/codegraph)** | Graf de coneixement de codi pre-indexat per a agents de codificació (Claude Code, Codex, Cursor, OpenCode, Hermes Agent). Menys tokens, menys tool calls, 100% local. |
+| **[NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector)** | Escàner de seguretat estàtic per a skills d'agents d'IA. Detecta 64 patrons de vulnerabilitat en 16 categories: prompt injection, execució de codi perillós (AST), exfiltració de dades, YARA, privilege escalation, i més. Suport per JSON/Markdown/SARIF. |
 
 ---
 
