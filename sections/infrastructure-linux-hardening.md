@@ -8,6 +8,7 @@ tags: [section]
 | :--- | :--- |
 | **[RHEL 9 Security Hardening](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/index)** | Guia oficial de Red Hat per assegurar RHEL 9. |
 | **[Exploit Notes](https://exploit-notes.hdks.org/)** | Notes detallades sobre explotació i CTFs. |
+| **[ENS-Wazuh Integration](https://github.com/fredycibersec/ENS-Wazuh-integration)** | Integració del Esquema Nacional de Seguridad (ENS) amb Wazuh XDR per a monitoratge de compliment normatiu. |
 | **[Lynis](https://cisofy.com/lynis/)** | Auditoria de seguretat per a sistemes Unix/Linux. |
 | **[testssl.sh](https://github.com/drwetter/testssl.sh)** | Eina de línia de comandes que comprova el xifratge TLS/SSL de qualsevol servei. |
 | **[SSH Monitor](scripts/python/ssh_monitor.py)** | Script per monitoritzar accessos SSH. |
