@@ -13,6 +13,7 @@ Anàlisi estàtica de codi font per detectar vulnerabilitats abans d'executar-lo
 
 | Eina | Descripció |
 | :--- | :--- |
+| **[Google CodeMender](https://docs.cloud.google.com/gemini-enterprise-agent-platform/codemender)** | Agent autònom de ciberseguretat que utilitza **[Gemini 3.5 Flash Cyber](https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/)** per escanejar rutes d'execució, validar explotabilitat i generar parches automàtics. |
 | **[Semgrep](https://github.com/semgrep/semgrep)** | Motor d'anàlisi estàtica de codi multillenguatge amb regles personalitzables. |
 | **[SonarQube](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/installing-sonarqube-from-docker/)** | Inspecció contínua de qualitat i seguretat del codi. |
 | **[Bandit](https://bandit.readthedocs.io/en/latest/)** | Troba problemes de seguretat en codi Python. |

@@ -40,6 +40,8 @@ Resum ràpid:
 
 | Recurs | Descripció |
 | :--- | :--- |
+| **[Gemini 3.5 Flash Cyber](https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/)** | Model d'IA especialitzat de Google DeepMind per trobar, validar i corregir vulnerabilitats de programari a gran velocitat i baix cost per token. |
+| **[Google CodeMender](https://docs.cloud.google.com/gemini-enterprise-agent-platform/codemender)** | Agent autònom de ciberseguretat de Google que orquestra crides a Gemini 3.5 Flash Cyber per analitzar rutes d'execució de codi, validar explotabilitat i aplicar parches automàtics. |
 | **[HackSkills / yaklang](https://github.com/yaklang/hack-skills)** | Col·lecció de 102 skills per agents d'IA en 14 dominis de seguretat (web, API, auth, OS privesc, AD, mobile, binex, RE, crypto, blockchain, AI/ML, network, forensics). Dissenyat per pentesting, bug bounty i CTF — skills en format SKILL.md per carregar directament en qualsevol agent d'IA. |
 | **[CALDERA](https://github.com/mitre/caldera)** | Plataforma d'emulació d'adversaris automatitzada basada en MITRE ATT&CK; útil en workflows que combinen IA per l'orquestració de proves i mapatge d'eines/tàctiques. |
 | **[Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)** | Col·lecció d'atòms de proves mapejats a ATT&CK; sovint integrada en pipelines automatitzades i validació de detecció assistida per IA. |
