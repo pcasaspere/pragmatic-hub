@@ -1,18 +1,18 @@
 ---
-title: "⚙️ Infrastructure, Linux & Hardening"
+title: "Infrastructure & Hardening"
 tags: [section]
 ---
 
-## ⚙️ Infrastructure, Linux & Hardening
+# Infrastructure & Hardening
+
+Hardening, auditoria de hosts i controls de perímetre. Txuleta Linux: [payloads-and-commands/linux-and-hardening.md](../payloads-and-commands/linux-and-hardening.md). Escàner de vulnerabilitats: [greenbone/](../greenbone/README.md).
+
 | Eina | Descripció |
 | :--- | :--- |
-| **[RHEL 9 Security Hardening](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/index)** | Guia oficial de Red Hat per assegurar RHEL 9. |
-| **[Exploit Notes](https://exploit-notes.hdks.org/)** | Notes detallades sobre explotació i CTFs. |
-| **[ENS-Wazuh Integration](https://github.com/fredycibersec/ENS-Wazuh-integration)** | Integració del Esquema Nacional de Seguridad (ENS) amb Wazuh XDR per a monitoratge de compliment normatiu. |
-| **[Lynis](https://cisofy.com/lynis/)** | Auditoria de seguretat per a sistemes Unix/Linux. |
-| **[testssl.sh](https://github.com/drwetter/testssl.sh)** | Eina de línia de comandes que comprova el xifratge TLS/SSL de qualsevol servei. |
-| **[SSH Monitor](scripts/python/ssh_monitor.py)** | Script per monitoritzar accessos SSH. |
-| **[pspy](https://github.com/DominicBreuker/pspy)** | Monitorització de processos sense root. |
-| **[nmap](https://nmap.org/)** | Estàndard per a exploració de xarxa. |
-| **[BunkerWeb](https://github.com/bunkerity/bunkerweb)** | WAF de nova generació basat en NGINX, \"secure by default\". |
-| **[exiftool](https://exiftool.org/)** | Lectura i edició de metadades de fitxers. |
+| **[RHEL 9 Security Hardening](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/index)** | Guia oficial Red Hat per RHEL 9. |
+| **[Lynis](https://cisofy.com/lynis/)** | Auditoria Unix/Linux. |
+| **[ENS-Wazuh Integration](https://github.com/fredycibersec/ENS-Wazuh-integration)** | ENS + Wazuh XDR (compliment). |
+| **[testssl.sh](https://github.com/drwetter/testssl.sh)** | Comprovació TLS/SSL de serveis. |
+| **[BunkerWeb](https://github.com/bunkerity/bunkerweb)** | WAF sobre NGINX, secure-by-default. |
+| **[SSH Monitor](../scripts/python/ssh_monitor.py)** | Script local de monitoratge SSH. |
+| **[Greenbone / OpenVAS](../greenbone/README.md)** | Escàner de vulnerabilitats (notes d'instal·lació al repo). |

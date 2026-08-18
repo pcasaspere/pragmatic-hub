@@ -1,68 +1,45 @@
 ---
-title: "🤖 AI i Agents"
+title: "AI i Agents"
 tags: [section]
 ---
 
-## 🤖 AI i Agents
+# AI i Agents
 
-Aquest fitxer consolida la informació de tres seccions prèvies del repositori: "Agentic Frameworks & MCP", "Agents" i "AI for Cybersecurity". Aquí tens una explicació ràpida de què significa cada concepte i una llista organitzada de recursos, eines i enllaços rellevants.
+Frameworks d'agents, skills/MCP, i IA aplicada a ciberseguretat. Les eines ofensives *sense* component d'IA (Metasploit, CALDERA, Nuclei, etc.) són a [Offensive Security](offensive-security-pentesting-bug-bounty.md).
 
-Resum ràpid:
-- Agentic Frameworks & MCP: estàndards, protocols i frameworks que permeten crear, executar i integrar agents d'IA (per ex. MCP — Model Context Protocol), i ecosistemes de "skills" o connectors reutilitzables.
-- AI for Cybersecurity: projectes, biblioteques i eines que apliquen IA per a tasques de seguretat (agents de pentest, simuladors, frameworks d'entrenament, etc.).
-
----
-
-## Organització del contingut
-
-1) Agentic Frameworks & MCP — Protocols i frameworks
-3) AI for Cybersecurity — Projectes i eines rellevants
-
----
-
-## 1) Agentic Frameworks & MCP
+## 1) Frameworks, skills i MCP
 
 | Recurs | Descripció |
 | :--- | :--- |
-| **[AgenticSkills](https://agenticskills.io/)** | Directori curat de skills d'agents (SKILL.md) i 200+ servidors MCP. Cerca i comparació per Claude Code, Codex, Cursor, Gemini CLI i 18+ plataformes. |
-| **[skills.sh](https://skills.sh/)** | Ecosistema obert de "skills" per a agents d'IA. Directori per instal·lar capacitats reutilitzables en agents com Claude Code, Copilot, Cursor, etc. |
-| **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** | Protocol obert per a la interoperabilitat entre agents i eines (estàndard per compartir "context" i recursos entre agents i serveis). |
-| **[MCP Servers Directory](https://github.com/modelcontextprotocol/servers)** | Llistat i exemples de servidors MCP per connectar agents a bases de dades, APIs i eines externes. |
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | Ecosistema d'agents i eines on pot córrer BraserBot / agents similars. |
-| **[Agency Agents](https://github.com/msitarzewski/agency-agents/)** | Col·lecció d'agents especialitzats (diversos rols) preparada per a producció. |
-| **[AGENTS.md](https://agents.md/)** | Guia / estàndard per construir i guiar agents d'IA en repositoris i workspaces. |
-| **[Codegraph](https://github.com/colbymchenry/codegraph)** | Graf de coneixement de codi pre-indexat per a agents de codificació (Claude Code, Codex, Cursor, OpenCode, Hermes Agent). Menys tokens, menys tool calls, 100% local. |
-| **[ponytail](https://github.com/DietrichGebert/ponytail)** | Skill meta per a agents d'IA: fa que pensin com el dev sènior més gandul. YAGNI, solucions mínimes, el millor codi és el que no s'escriu. Suporta intensitat lite/full/ultra. |
-| **[NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector)** | Escàner de seguretat estàtic per a skills d'agents d'IA. Detecta 64 patrons de vulnerabilitat en 16 categories: prompt injection, execució de codi perillós (AST), exfiltració de dades, YARA, privilege escalation, i més. Suport per JSON/Markdown/SARIF. |
+| **[AgenticSkills](https://agenticskills.io/)** | Directori de SKILL.md i 200+ MCP. Claude Code, Codex, Cursor, Gemini CLI. Fitxa: [resources/agenticskills.md](../resources/agenticskills.md). |
+| **[skills.sh](https://skills.sh/)** | Directori de skills instal·lables. Fitxa: [resources/skills-sh.md](../resources/skills-sh.md). |
+| **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** | Protocol d'eines/context entre agents i serveis. |
+| **[MCP Servers Directory](https://github.com/modelcontextprotocol/servers)** | Servidors MCP d'exemple. |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | Ecosistema d'agents (BraserBot / similars). |
+| **[Agency Agents](https://github.com/msitarzewski/agency-agents/)** | Col·lecció d'agents especialitzats. |
+| **[AGENTS.md](https://agents.md/)** | Convenció per guiar agents dins d'un repo. |
+| **[Codegraph](https://github.com/colbymchenry/codegraph)** | Graf de codi local per agents de coding. |
+| **[ponytail](https://github.com/DietrichGebert/ponytail)** | Skill meta: YAGNI / solucions mínimes. |
+| **[NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector)** | SAST de skills d'agents (també a [Code Analysis](code-analysis-sast.md)). |
+| **[Hermes](../resources/Hermes.md)** | Runtime d'agent (aquest assistent). |
 
----
-
-## 3) AI for Cybersecurity — eines i projectes
+## 2) IA per a ciberseguretat
 
 | Recurs | Descripció |
 | :--- | :--- |
-| **[Gemini 3.5 Flash Cyber](https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/)** | Model d'IA especialitzat de Google DeepMind per trobar, validar i corregir vulnerabilitats de programari a gran velocitat i baix cost per token. |
-| **[Google CodeMender](https://docs.cloud.google.com/gemini-enterprise-agent-platform/codemender)** | Agent autònom de ciberseguretat de Google que orquestra crides a Gemini 3.5 Flash Cyber per analitzar rutes d'execució de codi, validar explotabilitat i aplicar parches automàtics. |
-| **[HackSkills / yaklang](https://github.com/yaklang/hack-skills)** | Col·lecció de 102 skills per agents d'IA en 14 dominis de seguretat (web, API, auth, OS privesc, AD, mobile, binex, RE, crypto, blockchain, AI/ML, network, forensics). Dissenyat per pentesting, bug bounty i CTF — skills en format SKILL.md per carregar directament en qualsevol agent d'IA. |
-| **[CALDERA](https://github.com/mitre/caldera)** | Plataforma d'emulació d'adversaris automatitzada basada en MITRE ATT&CK; útil en workflows que combinen IA per l'orquestració de proves i mapatge d'eines/tàctiques. |
-| **[Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)** | Col·lecció d'atòms de proves mapejats a ATT&CK; sovint integrada en pipelines automatitzades i validació de detecció assistida per IA. |
-| **[Metasploit Framework](https://github.com/rapid7/metasploit-framework)** | Framework de pentesting compatible amb automatització i scripts; pot integrar-se en orquestres d'IA per a execució de tests controlats. |
-| **[Infection Monkey](https://github.com/guardicore/infection-monkey)** | Simulació de moviment lateral que pot alimentar models d'IA amb dades de propagació per millorar deteccions. |
-| **[PurpleSharp](https://github.com/mgeeky/PurpleSharp)** | Eina enfocada a Active Directory per emular tècniques AD; útil per entrenar o provar deteccions específiques. |
-| **[PentestGPT](https://github.com/GreyDGL/PentestGPT)** | Agent d'IA per a pentesting; exemple de com els LLMs poden automatitzar parts d'un pentest. |
-| **[Strix](https://github.com/usestrix/strix)** | Agents AI autònoms que troben i validen vulnerabilitats automàticament amb evidència reproduïble. |
-| **[SuperClaw](https://github.com/SuperagenticAI/superclaw)** | Suite de seguretat agentica de codi obert amb múltiples agents especialitzats (projecte comunitari). |
-| **[CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI)** | Plataforma de seguretat AI-native amb diverses eines integrades i suport MCP. |
-| **[PentAGI](https://github.com/vxcontrol/pentagi)** | Arquitectura agentica autònoma per pentesting amb capacitat de planificació i execució multi-etapa. |
-| **[CAI](https://github.com/aliasrobotics/CAI)** | Framework open-source per aplicar IA en ciberseguretat (integració amb ROS, sistemes robòtics). |
-| **[HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT)** | Biblioteca i exemples per crear agents d'hacking amb LLMs, amb suport per a múltiples tècniques ofensives. |
-| **[Shannon](https://github.com/KeygraphHQ/shannon)** | Pentester blanc-caixa autònom per aplicacions web i APIs, amb anàlisi semàntica del codi font. |
-| **[BlacksmithAI](https://github.com/yohannesgk/blacksmith)** | Marc multi-agent open-source per automatitzar fluxos de pentesting amb coordinació entre agents especialitzats. |
-| **[PentestAgent](https://github.com/GH05TCREW/pentestagent)** | Agent orientat a proves black-box amb playbooks preconstruïts per a escenaris comuns d'atac. |
-| **[AIDA](https://github.com/Vasco0x4/AIDA)** | Agent autònom de pentesting que converteix qualsevol LLM en pentester. Executa nmap, sqlmap, nuclei, ffuf i scripts Python en contenidor Docker aïllat, amb notebook persistent i suport MCP. Ja ha produït CVEs reals. |
-| **[Pentest Copilot](https://github.com/bugbasesecurity/pentest-copilot)** | Assistència AI basada en navegador per agilitzar workflows de pentesting i generar informes automàticament. |
-| **[Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** | Recull de skills en format SKILL.md i exemples pràctics orientats a l'ús de models Anthropic per a tasques de ciberseguretat (auditoria, anàlisi, generació de regles). |
-
----
-
-
+| **[Gemini 3.5 Flash Cyber](https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/)** | Model DeepMind per trobar/validar/patchar vulns. |
+| **[Google CodeMender](https://docs.cloud.google.com/gemini-enterprise-agent-platform/codemender)** | Agent que orquestra Gemini Cyber per rutes d'execució i patches. |
+| **[HackSkills / yaklang](https://github.com/yaklang/hack-skills)** | 102 skills SKILL.md en 14 dominis de seguretat. |
+| **[Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** | Skills SKILL.md per tasques de cyber amb models Anthropic. |
+| **[PentestGPT](https://github.com/GreyDGL/PentestGPT)** | Agent LLM per pentest (revisió humana obligatòria). |
+| **[Strix](https://github.com/usestrix/strix)** | Agents que troben i validen vulns amb evidència. |
+| **[SuperClaw](https://github.com/SuperagenticAI/superclaw)** | Suite agentica de seguretat (comunitat). |
+| **[CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI)** | Plataforma AI-native + MCP. |
+| **[PentAGI](https://github.com/vxcontrol/pentagi)** | Arquitectura agentica multi-etapa de pentest. |
+| **[CAI](https://github.com/aliasrobotics/CAI)** | Framework IA + cyber (també ROS). |
+| **[HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT)** | Biblioteca per agents d'hacking amb LLM. |
+| **[Shannon](https://github.com/KeygraphHQ/shannon)** | Pentester white-box web/API. |
+| **[BlacksmithAI](https://github.com/yohannesgk/blacksmith)** | Multi-agent per fluxos de pentest. |
+| **[PentestAgent](https://github.com/GH05TCREW/pentestagent)** | Agent black-box amb playbooks. |
+| **[AIDA](https://github.com/Vasco0x4/AIDA)** | LLM → pentester en Docker aïllat + MCP. |
+| **[Pentest Copilot](https://github.com/bugbasesecurity/pentest-copilot)** | Assistència al navegador + informes. |
