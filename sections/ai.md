@@ -24,6 +24,7 @@ Resum ràpid:
 
 | Recurs | Descripció |
 | :--- | :--- |
+| **[AgenticSkills](https://agenticskills.io/)** | Directori curat de skills d'agents (SKILL.md) i 200+ servidors MCP. Cerca i comparació per Claude Code, Codex, Cursor, Gemini CLI i 18+ plataformes. |
 | **[skills.sh](https://skills.sh/)** | Ecosistema obert de "skills" per a agents d'IA. Directori per instal·lar capacitats reutilitzables en agents com Claude Code, Copilot, Cursor, etc. |
 | **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** | Protocol obert per a la interoperabilitat entre agents i eines (estàndard per compartir "context" i recursos entre agents i serveis). |
 | **[MCP Servers Directory](https://github.com/modelcontextprotocol/servers)** | Llistat i exemples de servidors MCP per connectar agents a bases de dades, APIs i eines externes. |
