@@ -9,7 +9,7 @@ Un recurs va a **una** secció principal. Només es duplica si és realment híb
 | Si és… | Va a… |
 | :--- | :--- |
 | Recon, exploits, C2, BAS, AD ofensiu | [Offensive](sections/offensive-security-pentesting-bug-bounty.md) |
-| Skills, MCP, agents, LLM de cyber | [AI i Agents](sections/ai.md) |
+| Skills, MCP, runtimes, sandbox, LLM de cyber | [AI i Agents](sections/ai.md) (subseccions: directoris, runtimes, eina, skills cyber, models, pentest) |
 | Dominis, leaks, CTI, people search | [OSINT](sections/osint-threat-intelligence.md) |
 | SAST, secrets, SCA, SBOM | [Code Analysis](sections/code-analysis-sast.md) |
 | AWS/Azure/GCP audit o exploit cloud | [Cloud](sections/cloud-security.md) |
@@ -27,7 +27,7 @@ Un recurs va a **una** secció principal. Només es duplica si és realment híb
 
 - [OSINT & Threat Intelligence](sections/osint-threat-intelligence.md)
 - [Offensive Security](sections/offensive-security-pentesting-bug-bounty.md)
-- [AI i Agents](sections/ai.md)
+- [AI i Agents](sections/ai.md) — directoris · runtimes · eina · skills cyber · models · pentest
 - [Cloud Security](sections/cloud-security.md)
 - [Code Analysis & Supply Chain](sections/code-analysis-sast.md)
 - [ICS/OT](sections/ics-ot.md) · [incidents](incidents/README.md)
