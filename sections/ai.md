@@ -21,6 +21,8 @@ Frameworks d'agents, skills/MCP, i IA aplicada a ciberseguretat. Les eines ofens
 | **[Codegraph](https://github.com/colbymchenry/codegraph)** | Graf de codi local per agents de coding. |
 | **[ponytail](https://github.com/DietrichGebert/ponytail)** | Skill meta: YAGNI / solucions mínimes. |
 | **[NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector)** | SAST de skills d'agents (també a [Code Analysis](code-analysis-sast.md)). |
+| **[Cloudflare security-audit-skill](https://github.com/cloudflare/security-audit-skill)** | Skill SKILL.md per auditories de seguretat en fases, amb findings verificats i llegibles per màquina. |
+| **[OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)** | Runtime de sandbox ràpid i extensible per aïllar el que executen els agents d'IA. |
 | **[Hermes](../resources/Hermes.md)** | Runtime d'agent (aquest assistent). |
 
 ## 2) IA per a ciberseguretat
