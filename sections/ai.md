@@ -5,13 +5,12 @@ tags: [section]
 
 # AI i Agents
 
-Frameworks d'agents, skills/MCP, i IA aplicada a ciberseguretat. Les eines ofensives *sense* component d'IA (Metasploit, CALDERA, Nuclei, etc.) són a [Offensive Security](offensive-security-pentesting-bug-bounty.md).
+Frameworks d'agents, MCP, i IA aplicada a ciberseguretat. Les **skills SKILL.md concretes** (Superpowers, superdesign, Cloudflare audit, HackSkills…) són a [Skills](skills.md). Les eines ofensives *sense* component d'IA són a [Offensive Security](offensive-security-pentesting-bug-bounty.md).
 
 **Índex**
 - [Directoris de skills i MCP](#directoris-de-skills-i-mcp)
 - [Runtimes d'agents](#runtimes-dagents)
 - [Eina i convencions per agents](#eina-i-convencions-per-agents)
-- [Skills de ciberseguretat](#skills-de-ciberseguretat)
 - [Models i labs](#models-i-labs)
 - [Agents de pentest](#agents-de-pentest)
 
@@ -47,19 +46,10 @@ Normes, grafs de codi, sandbox i SAST de skills. No són pentest.
 | :--- | :--- |
 | **[AGENTS.md](https://agents.md/)** | Convenció per guiar agents dins d'un repo. |
 | **[Codegraph](https://github.com/colbymchenry/codegraph)** | Graf de codi local per agents de coding. |
-| **[ponytail](https://github.com/DietrichGebert/ponytail)** | Skill meta: YAGNI / solucions mínimes. |
 | **[NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector)** | SAST de skills d'agents (també a [Code Analysis](code-analysis-sast.md)). |
 | **[OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)** | Runtime de sandbox ràpid i extensible per aïllar el que executen els agents d'IA. |
 
-## Skills de ciberseguretat
-
-Paquets SKILL.md per carregar a un agent. No són el runtime.
-
-| Recurs | Descripció |
-| :--- | :--- |
-| **[Cloudflare security-audit-skill](https://github.com/cloudflare/security-audit-skill)** | Skill SKILL.md per auditories de seguretat en fases, amb findings verificats i llegibles per màquina. |
-| **[HackSkills / yaklang](https://github.com/yaklang/hack-skills)** | 102 skills SKILL.md en 14 dominis de seguretat. |
-| **[Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** | Skills SKILL.md per tasques de cyber amb models Anthropic. |
+Skills concretes (Superpowers, superdesign, Cloudflare, HackSkills, ponytail): [Skills](skills.md).
 
 ## Models i labs
 
