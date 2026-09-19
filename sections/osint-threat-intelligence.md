@@ -22,3 +22,5 @@ tags: [section]
 | **[social-analyzer](https://github.com/qeeqbox/social-analyzer)** | API/CLI per buscar perfils socials. |
 | **[h8mail](https://github.com/khast3x/h8mail)** | Anàlisi de filtracions de correu. |
 | **[Digger Tools](https://digger.tools/)** | Eina web per intel·ligència de dominis i recerca d'arxius exposats (Domain Digger). Consolida consultes DNS/WHOIS/Wayback i cerca de buckets en una sola interfície. |
+| **[LeakIX](https://leakix.net)** | Cercador d'actius i serveis exposats (bases de dades, panells, buckets) sense autenticació. |
+| **[GitGraber](https://github.com/hisxo/gitGraber)** | Monitoritza GitHub per API keys i credencials filtrades; alertes a Telegram. |
