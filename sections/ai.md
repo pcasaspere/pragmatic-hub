@@ -74,4 +74,5 @@ Eines que fan (o assisteixen) pentest amb LLM. Revisió humana obligatòria. ROE
 | **[BlacksmithAI](https://github.com/yohannesgk/blacksmith)** | Multi-agent per fluxos de pentest. |
 | **[PentestAgent](https://github.com/GH05TCREW/pentestagent)** | Agent black-box amb playbooks. |
 | **[AIDA](https://github.com/Vasco0x4/AIDA)** | LLM → pentester en Docker aïllat + MCP. |
+| **[ARTEX](https://github.com/trhhubsd/ARTEX)** | Sistema de pentest autònom amb IA multi-agent (Go + Next.js). Guanyador del Baidu Agent+ Attack & Defense Challenge. Nota: citat per JPCERT/CC i Microsoft (Storm-0940) com a eina usada en atacs reals contra empreses japoneses el 2026. |
 | **[Pentest Copilot](https://github.com/bugbasesecurity/pentest-copilot)** | Assistència al navegador + informes. |
