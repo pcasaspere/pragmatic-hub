@@ -19,6 +19,7 @@ Un recurs va a **una** secció principal. Només es duplica si és realment híb
 | PCAP, IDS, IR, metadades | [Xarxa i forense](sections/network-forensics.md) |
 | Bloqueig, privacitat, sobirania | [Privacy](sections/digital-sovereignty-privacy-self-defense.md) |
 | Llibres, gitbooks, awesome lists | [Knowledge](sections/knowledge-bases-learning.md) |
+| Deploy, CI/CD, IaC, automatització d'operacions | [DevOps](sections/devops.md) |
 | Comandes / txulets de camp | [payloads-and-commands/](payloads-and-commands/README.md) |
 | Feeds | [Cyber RSS](sections/cyber-rss.md) |
 
@@ -34,6 +35,7 @@ Un recurs va a **una** secció principal. Només es duplica si és realment híb
 - [Code Analysis & Supply Chain](sections/code-analysis-sast.md)
 - [ICS/OT](sections/ics-ot.md) · [incidents](incidents/README.md)
 - [Infrastructure & Hardening](sections/infrastructure-linux-hardening.md) · [Greenbone](greenbone/README.md)
+- [DevOps](sections/devops.md)
 - [Network, IDS & Forensics](sections/network-forensics.md)
 - [Privacy & Digital Sovereignty](sections/digital-sovereignty-privacy-self-defense.md)
 - [Knowledge Bases](sections/knowledge-bases-learning.md)
