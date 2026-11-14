@@ -47,6 +47,7 @@ Normes, grafs de codi, sandbox i SAST de skills. No són pentest.
 | **[AGENTS.md](https://agents.md/)** | Convenció per guiar agents dins d'un repo. |
 | **[Codegraph](https://github.com/colbymchenry/codegraph)** | Graf de codi local per agents de coding. |
 | **[NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector)** | SAST de skills d'agents (també a [Code Analysis](code-analysis-sast.md)). |
+| **[Modern Web Guidance](https://github.com/GoogleChrome/modern-web-guidance)** | Skills del web platform (Chrome/Edge/Firefox/MDN) per a coding agents: evita patrons legacy i injecta guies modernes al context. Install: `npx modern-web-guidance@latest install`; també `search` / `retrieve` / `legacy-scan`. |
 | **[OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)** | Runtime de sandbox ràpid i extensible per aïllar el que executen els agents d'IA. |
 
 Skills concretes (Superpowers, superdesign, Cloudflare, HackSkills, ponytail): [Skills](skills.md).
